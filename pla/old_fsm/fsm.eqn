@@ -1,0 +1,84 @@
+
+INORDER=
+   RESET
+   load
+   iter
+   InSt0*
+   InSt1*
+   InSt2*;
+OUTORDER=
+   OutSt2*
+   OutSt1*
+   OutSt0*
+   ready
+   xr0
+   xr1
+   xw
+   yr0
+   yr1
+   yw
+   osu
+   oss
+   ros
+   g0
+   g1
+   g2
+   g3
+   rfb
+   cin
+   ras
+   ld
+   rd;
+OutSt2*=
+     (!RESET& InSt1*&!InSt2*)|
+     (!RESET&!load& iter&!InSt0*&!InSt1*&!InSt2*)|
+     (!RESET& load&!iter&!InSt0*&!InSt1*&!InSt2*);
+OutSt1*=
+     (!RESET& InSt1*&!InSt2*)|
+     (!RESET&!InSt1*& InSt2*);
+OutSt0*=
+     (!RESET& InSt0*& InSt1*&!InSt2*)|
+     (!RESET& InSt0*&!InSt1*& InSt2*)|
+     (!RESET&!InSt0*& InSt1*& InSt2*)|
+     (!RESET& load&!iter&!InSt0*&!InSt1*&!InSt2*);
+ready=
+     (!InSt0*&!InSt1*&!InSt2*);
+xr0=
+     (!InSt1*& InSt2*)|
+     (!InSt0*& InSt1*& InSt2*)|
+     (!InSt0*&!InSt1*&!InSt2*);
+xr1=
+     ( InSt0*&!InSt1*& InSt2*);
+xw=
+     ( InSt0*&!InSt2*)|
+     (!InSt0*& InSt1*&!InSt2*);
+yr0=0;
+yr1=
+     (!InSt0*& InSt1*& InSt2*);
+yw=
+     ( InSt0*& InSt1*& InSt2*);
+osu=
+     (!InSt0*&!InSt1*& InSt2*);
+oss=
+     (!InSt0*&!InSt1*& InSt2*);
+ros=
+     (!InSt0*& InSt1*&!InSt2*);
+g0=0;
+g1=
+     (!InSt0*& InSt1*& InSt2*);
+g2=
+     (!InSt0*& InSt1*& InSt2*);
+g3=0;
+rfb=
+     ( InSt0*&!InSt1*&!InSt2*);
+cin=
+     ( InSt0*&!InSt1*& InSt2*);
+ras=
+     ( InSt0*& InSt1*&!InSt2*);
+ld=
+     ( InSt0*& InSt1*& InSt2*);
+rd=
+     (!InSt0*&!InSt1*&!InSt2*);
+
+
+

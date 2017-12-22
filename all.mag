@@ -1,0 +1,38 @@
+magic
+tech scmos
+timestamp 1512334309
+<< nwell >>
+rect 24 106 26 124
+rect 24 44 26 80
+rect 24 0 26 18
+<< pwell >>
+rect 24 80 26 106
+rect 24 18 26 44
+<< psubstratepcontact >>
+rect 22 92 26 96
+rect 22 26 26 30
+<< nsubstratencontact >>
+rect 22 61 26 65
+<< polysilicon >>
+rect 24 79 26 81
+rect 24 17 26 19
+<< metal1 >>
+rect 26 61 30 65
+rect 24 34 26 38
+<< m2contact >>
+rect 22 88 26 92
+rect 22 22 26 26
+<< metal2 >>
+rect 24 119 26 122
+rect 18 88 22 92
+rect 18 22 22 26
+rect 24 8 26 12
+use sreg  sreg_0
+timestamp 1512334309
+transform 1 0 6 0 1 97
+box -9 -97 18 27
+use sreg  sreg_1
+timestamp 1512334309
+transform 1 0 35 0 1 97
+box -9 -97 18 27
+<< end >>

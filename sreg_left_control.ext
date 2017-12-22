@@ -1,0 +1,75 @@
+timestamp 1512534937
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+use sreg_control sreg_control_0 1 0 20 0 1 45
+use sreg_left_one sreg_left_one_0[0:0:28][0:9:124] 1 0 80 0 1 -877
+node "m1_60_n7#" 1 528.544 60 -7 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 32 116 66 0 0
+node "m1_92_8#" 1 407.2 92 8 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 116 66 0 0
+node "m1_78_36#" 0 277.056 78 36 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 60 38 0 0
+node "GND!" 0 249.168 12 41 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 48 32 0 0
+node "m1_64_45#" 0 218.096 64 45 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "Vdd!" 0 73.914 4 52 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0
+node "_c1" 0 116.976 92 62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "c1" 0 116.976 85 62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "_c0" 0 116.976 78 62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "c0" 0 116.976 71 62 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "phi1" 8 263.64 41 -11 p 0 0 0 0 0 0 0 0 0 0 12 16 0 0 0 0 0 0 0 0
+node "phi0" 3 113.488 41 57 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0
+node "bp" 3 113.488 33 57 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0
+node "en" 3 113.488 25 57 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0
+cap "c1" "_c0" 44.76
+cap "_c1" "c1" 44.76
+cap "c0" "_c0" 44.76
+cap "bp" "en" 7.88667
+cap "phi0" "bp" 7.88667
+subcap "phi1" -169.358
+cap "sreg_control_0/a_7_n48#" "sreg_control_0/Vdd!" 11.763
+cap "sreg_control_0/GND!" "sreg_control_0/a_7_n48#" 7.989
+cap "sreg_control_0/GND!" "sreg_control_0/a_39_n48#" 173.168
+cap "sreg_control_0/a_7_n48#" "sreg_left_one_0[9]/a_n9_n219#" 155.584
+cap "sreg_control_0/a_39_n48#" "sreg_left_one_0[9]/a_n9_n219#" 321.835
+cap "sreg_control_0/a_7_n48#" "sreg_left_one_0[9]/a_n2_n226#" 155.584
+cap "sreg_control_0/a_39_n48#" "sreg_left_one_0[9]/a_n2_n226#" 155.584
+cap "sreg_control_0/a_39_n48#" "sreg_control_0/a_7_n48#" 155.584
+cap "sreg_control_0/Vdd!" "phi1" 35.952
+cap "sreg_control_0/GND!" "phi1" 130.946
+cap "sreg_control_0/GND!" "sreg_control_0/Vdd!" -25.28
+subcap "m1_78_36#" -342.64
+subcap "_c0" -182.56
+subcap "phi0" -19.206
+subcap "bp" -166.736
+cap "GND!" "c0" 131.112
+cap "_c0" "c1" -7.10543e-15
+cap "bp" "en" -1.06581e-14
+cap "GND!" "Vdd!" 145.953
+cap "GND!" "bp" -1.13687e-13
+cap "_c0" "c0" 155.584
+cap "GND!" "_c0" 7.989
+cap "_c0" "Vdd!" 11.763
+cap "c1" "_c1" -7.10543e-15
+cap "bp" "phi0" -1.06581e-14
+merge "sreg_left_one_0[9]/a_5_n281#" "sreg_control_0/a_39_n48#" -41.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "sreg_control_0/a_39_n48#" "m1_60_n7#"
+merge "m1_60_n7#" "c1"
+merge "sreg_control_0/GND!" "GND!" -222.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 0 0 0 0
+merge "sreg_control_0/Vdd!" "Vdd!" -30.852 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "sreg_left_one_0[9]/a_n9_n219#" "c0" -254.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "c0" "sreg_control_0/a_39_n15#"
+merge "sreg_control_0/a_39_n15#" "m1_64_45#"
+merge "sreg_left_one_0[9]/a_n2_n226#" "_c0" -272.872 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 -8 0 0
+merge "_c0" "sreg_control_0/a_7_0#"
+merge "sreg_control_0/a_7_0#" "m1_78_36#"
+merge "sreg_control_0/en" "en" -113.488 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0
+merge "sreg_left_one_0[9]/a_12_n288#" "sreg_control_0/a_7_n48#" -41.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "sreg_control_0/a_7_n48#" "m1_92_8#"
+merge "m1_92_8#" "_c1"
+merge "sreg_control_0/bp" "bp" -38.412 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0
+merge "sreg_control_0/phi0" "phi0" -38.412 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0
+merge "sreg_control_0/phi1" "phi1" -169.358 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0
+merge "sreg_left_one_0[1:9]/a_12_n288#" "sreg_left_one_0[0:8]/a_12_n288#" -41.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "sreg_left_one_0[1:9]/a_n9_n219#" "sreg_left_one_0[0:8]/a_n9_n219#" -41.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "sreg_left_one_0[1:9]/a_5_n281#" "sreg_left_one_0[0:8]/a_5_n281#" -41.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "sreg_left_one_0[1:9]/a_n2_n226#" "sreg_left_one_0[0:8]/a_n2_n226#" -41.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

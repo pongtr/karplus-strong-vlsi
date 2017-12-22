@@ -1,0 +1,19 @@
+| units: 30 tech: scmos format: MIT
+p in Vdd! a_10_n1# 2 6 8 -1
+p _CLK a_10_n1# a_15_n16# 2 6 13 -1
+p out a_15_n16# Vdd! 7 6 21 -1
+p a_15_n16# Vdd! out 2 6 34 -1
+n in GND! a_10_n16# 2 3 8 -16
+n CLK a_10_n16# a_15_n16# 2 3 13 -16
+n out a_15_n16# GND! 7 3 21 -16
+n a_15_n16# GND! out 2 3 34 -16
+R GND! 33
+R a_15_n16# 40
+C out GND 2.48
+R out 18
+R in 39
+C _CLK GND 2.44
+R _CLK 110
+C CLK GND 2.67
+R CLK 90
+R Vdd! 25

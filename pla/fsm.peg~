@@ -1,0 +1,24 @@
+-- EENG 425 Final Project
+-- Pong Trairatvorakul & Wissem Gamra
+
+INPUTS  : RESET load iter;
+OUTPUTS : ready sreg_en sreg_latch add_latch in_latch loop_latch;
+
+-- ready state
+R: ASSERT ready;
+   CASE(load iter)
+     00 => R;
+     01 => I;
+     10 => L;
+     11 => S;
+   ENDCASE;
+
+-- load state
+L: ASSERT sreg_en sreg_latch in_latch;
+   IF load THEN L ELSE R;
+
+-- iterate state
+I: ASSERT sreg_en add_latch loop_latch;
+   IF iter THEN I ELSE R;
+
+-- sum state (grab inpuuuut and just sum last two sreg)

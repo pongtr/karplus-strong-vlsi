@@ -1,0 +1,10 @@
+ex1.peg - example peg file
+peg.doc - documentation for PEG file format
+
+
+eqntott - convert equations into a truth table
+example.eqn - example equation file
+
+mpla - generate PLA
+scmos.tech27 - input used by mpla
+nortiles.mag - input used by mpla

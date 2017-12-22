@@ -1,0 +1,32 @@
+magic
+tech scmos
+timestamp 1512338114
+<< polysilicon >>
+rect -2 1202 0 1204
+rect -2 1195 0 1197
+rect -2 1140 0 1142
+rect -2 1133 0 1135
+<< metal1 >>
+rect 224 1153 230 1157
+rect 227 1123 230 1153
+rect -2 1120 0 1123
+rect 224 1120 230 1123
+<< metal2 >>
+rect -3 1238 0 1241
+rect -2 1127 0 1131
+rect 224 1127 236 1131
+use sreg_10b  sreg_10b_0
+array 0 3 56 0 0 1248
+timestamp 1512337961
+transform 1 0 0 0 1 3
+box 0 -3 56 1245
+<< labels >>
+rlabel metal2 -3 1238 -3 1241 3 Vdd!
+rlabel polysilicon -2 1195 -2 1197 3 _c0
+rlabel polysilicon -2 1202 -2 1204 3 c0
+rlabel polysilicon -2 1133 -2 1135 3 _c1
+rlabel polysilicon -2 1140 -2 1142 3 c1
+rlabel metal2 -2 1127 -2 1131 3 i0
+rlabel metal1 -2 1120 -2 1123 3 GND!
+rlabel metal2 236 1127 236 1131 7 o0
+<< end >>

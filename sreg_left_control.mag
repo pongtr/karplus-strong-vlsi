@@ -1,0 +1,47 @@
+magic
+tech scmos
+timestamp 1512534937
+<< polysilicon >>
+rect 25 57 27 59
+rect 33 57 35 59
+rect 41 57 43 59
+rect 41 -11 43 -5
+<< metal1 >>
+rect 71 62 75 65
+rect 78 62 82 65
+rect 85 62 89 65
+rect 92 62 96 65
+rect 4 52 6 55
+rect 64 45 71 49
+<< m2contact >>
+rect 12 41 16 45
+rect 78 36 82 40
+rect 92 8 96 12
+rect 60 -7 64 -3
+rect 85 -7 89 -3
+<< metal2 >>
+rect 4 41 12 45
+rect 67 36 78 40
+rect 67 8 92 12
+rect 64 -7 85 -3
+use sreg_control  sreg_control_0
+timestamp 1512534937
+transform 1 0 20 0 1 45
+box -14 -54 50 19
+use sreg_left_one  sreg_left_one_0
+array 0 0 28 0 9 124
+timestamp 1512367202
+transform 1 0 80 0 1 -877
+box -76 -301 19 -177
+<< labels >>
+rlabel metal1 5 52 5 55 3 Vdd!
+rlabel metal2 5 41 5 45 3 GND!
+rlabel polysilicon 25 58 27 58 5 en
+rlabel polysilicon 33 58 35 58 5 bp
+rlabel polysilicon 41 58 43 58 5 phi0
+rlabel polysilicon 41 -10 43 -10 1 phi1
+rlabel metal1 71 64 75 64 5 c0
+rlabel metal1 78 64 82 64 5 _c0
+rlabel metal1 85 64 89 64 5 c1
+rlabel metal1 92 64 96 64 6 _c1
+<< end >>

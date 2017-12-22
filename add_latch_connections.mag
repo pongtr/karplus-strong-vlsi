@@ -1,0 +1,14 @@
+magic
+tech scmos
+timestamp 1512633651
+<< metal1 >>
+rect -1 -1 27 2
+rect 10 -71 14 -34
+rect 1 -75 14 -71
+<< m2contact >>
+rect 10 -34 14 -30
+rect 77 -83 81 -79
+<< metal2 >>
+rect 14 -34 25 -30
+rect 1 -83 77 -80
+<< end >>

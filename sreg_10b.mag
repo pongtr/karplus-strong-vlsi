@@ -1,0 +1,15 @@
+magic
+tech scmos
+timestamp 1512379799
+<< nwell >>
+rect 21 1239 35 1245
+<< nsubstratencontact >>
+rect 25 1238 29 1242
+<< metal1 >>
+rect 29 1238 35 1242
+use sreg_pair  sreg_pair_0
+array 0 0 56 0 9 124
+timestamp 1512379799
+transform 1 0 3 0 1 0
+box -3 -3 53 124
+<< end >>

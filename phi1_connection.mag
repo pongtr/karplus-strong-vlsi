@@ -1,0 +1,17 @@
+magic
+tech scmos
+timestamp 1512512927
+<< polycontact >>
+rect 4 9 8 13
+<< m2contact >>
+rect 4 5 8 9
+<< metal2 >>
+rect 4 -2 8 5
+<< m3contact >>
+rect 4 -6 8 -2
+<< metal3 >>
+rect 3 -2 9 -1
+rect 3 -6 4 -2
+rect 8 -6 9 -2
+rect 3 -7 9 -6
+<< end >>

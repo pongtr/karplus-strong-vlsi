@@ -1,0 +1,9 @@
+timestamp 1512379879
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+node "m2_n11_9#" 0 72.048 -11 9 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "m1_n11_2#" 1 967.932 -11 2 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 92 0 0 0 0
+cap "m2_n11_9#" "m1_n11_2#" 127.836

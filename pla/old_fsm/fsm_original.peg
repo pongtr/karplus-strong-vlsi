@@ -1,0 +1,38 @@
+-- EENG 425 Lab 4: Control 
+-- Pong Trairatvorakul & Wissem Gamra
+
+INPUTS  : RESET load iter p0 p1;
+OUTPUTS : ready xr0 xr1 xw yr0 yr1 yw osu oss ros g0 g1 g2 g3 rfb cin ras ld rd;
+
+
+-- ready state
+R : ASSERT ready xr0 rd;
+    CASE(load iter)
+       00 => R;
+       01 => I;
+       10 => L;
+       11 => R;
+    ENDCASE;
+
+-- iter state
+I : IF p0 THEN I1 ELSE I;
+I1: ASSERT xr0 osu oss;
+    IF p1 THEN I2 ELSE I1;
+I2: ASSERT ros xw;
+    IF p0 THEN I3 ELSE I2;
+I3: ASSERT xr0 yr1 g1 g2;
+    IF p1 THEN I4 ELSE I3;
+I4: ASSERT rfb xw;
+    GOTO R;
+    
+
+-- load state
+L : IF p0 THEN L1 ELSE L;
+L1: ASSERT xr0 xr1 cin;
+    IF p1 THEN L2 ELSE L1;
+L2: ASSERT ras xw;
+    IF p0 THEN L3 ELSE L2;
+L3: IF p1 THEN L4 ELSE L3;
+L4: ASSERT ld yw;
+    IF p1 THEN R ELSE R;
+

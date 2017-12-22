@@ -1,0 +1,25 @@
+magic
+tech scmos
+timestamp 1512367202
+<< polysilicon >>
+rect -5 -218 19 -216
+rect 2 -225 19 -223
+rect 9 -280 19 -278
+rect 16 -287 19 -285
+<< polycontact >>
+rect -9 -219 -5 -215
+rect -2 -226 2 -222
+rect 5 -281 9 -277
+rect 12 -288 16 -284
+<< metal1 >>
+rect -9 -215 -5 -177
+rect -9 -301 -5 -219
+rect -2 -222 2 -177
+rect -2 -301 2 -226
+rect 5 -277 9 -177
+rect 5 -301 9 -281
+rect 12 -284 16 -177
+rect 12 -301 16 -288
+<< metal2 >>
+rect -76 -293 19 -289
+<< end >>

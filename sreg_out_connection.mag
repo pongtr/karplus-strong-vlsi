@@ -1,0 +1,11 @@
+magic
+tech scmos
+timestamp 1512685257
+<< m3contact >>
+rect 560 17 564 21
+<< metal3 >>
+rect -38 21 565 22
+rect -38 17 560 21
+rect 564 17 565 21
+rect -38 16 565 17
+<< end >>

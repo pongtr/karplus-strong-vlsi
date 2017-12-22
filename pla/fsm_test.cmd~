@@ -1,0 +1,55 @@
+# EENG 425 Lab 4: Control
+# Pong Trairatvorakul & Wissem Gamra
+# Test script for control
+
+##################
+# SETUP
+##################
+
+# set up GND! and Vdd!
+h Vdd!
+l GND!
+
+# set up clocks
+vector CLOCK p1 p1- p2 p2-
+clock CLOCK 0101 1001 0101 0110
+
+# set up states
+vector STATE InSt0* InSt1* InSt2*
+
+# set initial inputs
+l load iter
+vector IN load iter
+
+# set output vectors
+vector X xr0 xr1 xw
+vector Y yr0 yr1 yw
+vector OS osu oss ros
+vector FB g0 g1 g2 g3 rfb
+vector AS cin ras
+vector LR ld rd
+
+# send thing to be displayed
+ana CLOCK STATE IN ready X Y OS FB AS LR
+
+# send RESET
+h RESET
+c
+l RESET
+c
+
+##########################
+
+c
+h load
+c
+l load
+c
+c
+h iter
+c
+l iter
+c
+c
+
+

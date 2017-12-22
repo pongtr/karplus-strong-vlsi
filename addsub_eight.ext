@@ -1,0 +1,8 @@
+timestamp 1512379736
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+use addsub_one addsub_one_0[0:0:196][0:9:124] 1 0 31 0 1 38
+merge "addsub_one_0[1:9]/cin" "addsub_one_0[0:8]/cout" -16.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0

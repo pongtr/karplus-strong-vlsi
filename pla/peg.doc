@@ -1,0 +1,792 @@
+
+
+
+
+
+
+
+
+
+
+
+
+                 Designing Finite State Machines with PEG
+
+
+
+
+                           _G_o_r_d_o_n _H_a_m_a_c_h_i
+
+
+
+                      Computer Science Division
+          Electrical Engineering and Computer Sciences
+                    University of California
+                       Berkeley, CA  94720
+
+
+
+
+                            ABSTRACT
+
+
+    PEG is a finite state machine compiler.   It  translates
+    high   level   language  descriptions  of  finite  state
+    machines into the logic equations  needed  to  implement
+    state  machine designs.  Since the output format is com-
+    patible with _e_q_n_t_o_t_t, PEG may be used as a front end for
+    Berkeley PLA tools.
+
+
+
+_1.  _I_n_t_r_o_d_u_c_t_i_o_n
+
+     _P_E_G (PLA Equation Generator) is a  design  tool  for  finite
+state  machines.  It compiles high level language descriptions of
+finite state machines into the logic equations needed  to  imple-
+ment a design.
+
+     _P_E_G programs are isomorphic to Moore machine state diagrams.
+There  is  a  one-to-one correspondence between states in a state
+diagram and state definitions in the corresponding  _P_E_G  program.
+The translation from state diagrams to _P_E_G programs is simple and
+straightforward.
+
+     Designing with PEG provides a number of advantages over  the
+traditional  pencil-and-paper  approach  method  of  FSM  design.
+PEG's high level language enables designs and design  changes  to
+quickly  be implemented.  PEG programs provide easy-to-understand
+documentation with clear control flow.  PEG does the tedious  and
+error-prone  bookkeeping task of generating _o_u_t_p_u_t and _n_e_x_t _s_t_a_t_e
+bits as a function of current state bits.  It checks  for  design
+
+
+                                - 1 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+
+
+
+errors and eliminates redundant terms in logic equations.
+
+     As output PEG generates logic equations in  the  _e_q_n  format
+accepted  by  _e_q_n_t_o_t_t [Cmelik], another Berkeley design tool.  By
+piping the output of PEG through _e_q_n_t_o_t_t, PEG may be  used  as  a
+front  end  for  Berkeley  PLA  tools  such  as  _m_p_l_a [Mayo], and
+_e_s_p_r_e_s_s_o [Rudell].   As  an  option,  _P_E_G  will  also  print  the
+unminimized  truth  table from which the logic equations are der-
+rived.
+
+_2.  _A _S_i_m_p_l_e _E_x_a_m_p_l_e
+
+     Figure 1 shows the state diagram  for  a  four-state  finite
+state  machine  implementing  a  2-bit  binary  counter.  The _P_E_G
+description of this design appears in Figure 2.  The program  has
+no  inputs  besides  an implicit clock.  The outputs of the state
+machine are its _n_e_x_t _s_t_a_t_e bits,  which  are  automatically  gen-
+erated by _P_E_G.
+
+
+
+
+
+
+
+
+
+
+
+             Figure 1:  State Diagram for Example 1
+
+
+     In its most simple form, a _P_E_G program consists of a list of
+state  descriptions.   The  sample program has four states.  Each
+state has four parts:  an optional label, a  colon,  an  optional
+signal assertion part, and and optional control part.
+
+
+--Simple PEG program for 2-bit counter
+--State transition on every clock
+--No reset => starts in a random state
+
+Start         :              --This is state 0
+              :              --This is state 1
+              :              --This is state 2
+              :              --This is state 3
+                               GOTO Start;
+
+              Figure 2:  _P_E_G Program for Example 1
+
+
+
+
+                              - 2 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+
+     The  first  state  in  the  example  is  labeled  with   the
+identifier  _S_t_a_r_t.   The  label  is necessary only because of the
+GOTO from state 3 back to state 0.
+
+     States 1 and 2 are examples of the  minimal  state  descrip-
+tion.  These states are completely defined by a colon, which acts
+as a place holder for the  state.   Empty  states,  in  which  no
+branching  or  signal  assertions  occur,  are  sometimes used to
+introduce necessary delays in FSMs.
+
+     Flow of control in _P_E_G programs is sequential unless  other-
+wise  specified.  Since  no  control  information  is present for
+states 0, 1, and 2, the program steps  sequentially  through  the
+states  0, 1, 2, and 3.  State 3 has control information specify-
+ing a jump back to the state labeled _S_t_a_r_t.
+
+     Since it has no sequential _n_e_x_t _s_t_a_t_e, control  must  always
+be  defined  for the last state in the program.  _P_E_G generates an
+error message and quits if control is not defined  for  the  last
+state.
+
+     Although state transitions are performed on clock ticks,  no
+clock is mentioned in the program.  It is the user's responsibil-
+ity to implement the state  machine  with  synchronous  logic  to
+latch input and output signals.
+
+     Comments begin with a double dash "--" and terminate at  the
+end  of  the line on which they appear.  The first three lines of
+the program are  comments.   Comments  also  appear  on  lines  5
+through 8.
+
+     Input is free-format.  White space may appear anywhere in  a
+program to enhance readability.
+
+_3.  _I_n_t_e_r_p_r_e_t_i_n_g _t_h_e _O_u_t_p_u_t
+
+     Assuming that the _P_E_G program for example 1  is  in  a  file
+called  _c_o_u_n_t_e_r,  the  following Unix command line may be used to
+invoke _P_E_G:
+
+                           _p_e_g _c_o_u_n_t_e_r
+
+The resulting output is shown in figure 3.  Generating a PLA from
+the same input file is accomplished with the command line:
+
+               _p_e_g _c_o_u_n_t_e_r | _e_q_n_t_o_t_t | _m_p_l_a -_I -_O
+
+
+_M_p_l_a  will  not  automatically  connect  _n_e_x_t-_s_t_a_t_e  outputs   to
+_c_u_r_r_e_n_t-_s_t_a_t_e inputs.  After generating the PLA the state outputs
+must be manually wired to the state inputs.
+
+
+
+
+                              - 3 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+_3._1.  _E_q_u_a_t_i_o_n_s
+
+     _P_E_G generates the two  input  variables  _I_n_S_t_0*  and  _I_n_S_t_1*
+
+
+
+INORDER          =          InSt0* InSt1*;
+OUTORDER         =          OutSt1* OutSt0*;
+OutSt1*          =          (!InSt1*);
+OutSt0*          =          ( InSt0*&!InSt1*)| (!InSt0*& InSt1*);
+
+             Figure 3:  PLA Equations for Example 1.
+
+
+
+which are the state inputs for the finite state machine.  It also
+generates  two  output  variables  _O_u_t_S_t_0* and _O_u_t_S_t_1*, the next-
+state outputs.  Any signal name ending with an asterisk was  gen-
+erated by _P_E_G.
+
+     The INORDER and OUTORDER statements specify that the result-
+ing  PLA  inputs  and  outputs,  from  left to right, are InSt0*,
+InSt1*, OutSt1*, and OutSt0*.
+
+     Following the OUTORDER statement are the logic equations for
+the  two output variables, OutSt1* and OutSt0*.  The exclaimation
+mark "!" indicates logical negation.  The ampersand "&" signifies
+the  logical  _A_N_D, while the vertical bar "|" signifies a logical
+_O_R.
+
+_3._2.  _T_r_u_t_h _T_a_b_l_e
+
+ 
+     The -t option generates a truth table for the  finite  state
+machine.   This  truth  table is written to the file _p_e_g._s_u_m_m_a_r_y.
+The truth table for example 1 is shown in figure 4.
+
+
+INPUTS:                       s00:         InSt0* (msb)
+                              s01:         InSt1* (lsb)
+
+OUTPUTS:                      n01:         OutSt1* (lsb)
+                              n00:         OutSt0* (msb)
+
+State Table         s         s            n         n
+                    0         1            1         0
+                    0         0            1         0
+                    0         1            0         1
+                    1         0            1         1
+                    1         1            0         0
+
+
+              Figure 4:  Truth Table for Example 1.
+
+
+
+
+                              - 4 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+
+     Labels across the  top  of  the  truth  table  identify  its
+columns.   The  mapping from column labels to actual signal names
+is given in the lists of input and output signals  which  preceed
+the  truth  table.  To the right of the truth table are the names
+of the states described by the rows of the table.
+
+_4.  _A_n_o_t_h_e_r _E_x_a_m_p_l_e
+
+     The second and more complex example shows the state  diagram
+and corresponding _P_E_G program for a FSM which recognizes the reg-
+ular expression (1|0)*100.  The state diagram  for  this  FSM  is
+shown in figure 5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Figure 5:  State Diagram Recognizing (1|0)*100
+
+
+
+     The PEG program which implements this  design  is  given  in
+figure  6.   Figure 6 describes a state machine with four states.
+The state machine has two inputs, _R_E_S_E_T and _i_n, and  one  output,
+_a_c_c_e_p_t.
+
+
+
+                              - 5 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+
+
+--Simple FSM example:  Accepts the regular expression (1|0)*100
+
+INPUTS  :       RESET InStream;
+OUTPUTS :       accept;
+
+Top     :       IF NOT InStream THEN LOOP;            --0*
+
+Saw1    :       IF InStream THEN LOOP;                --1
+
+        :       IF InStream THEN Saw1;                --10
+
+        :       ASSERT accept;
+                IF InStream THEN Saw1 ELSE Top;       --100
+
+
+          Figure 6:  PEG Program Recognizing (1|0)*100
+
+
+
+
+
+INORDER           =          RESET InStream InSt0* InSt1*;
+OUTORDER          =          OutSt1* OutSt0* Accept;
+OutSt1*           =          (!RESET& InStream) |
+                             (!RESET&!InStream& InSt0*&!InSt1*);
+OutSt0*           =          (!RESET&!InStream& InSt0*&!InSt1*) |
+                             !InStream&!InSt0*& InSt1*);
+Accept            =          ( InSt0*& InSt1*);
+
+
+               Figure 7:  Equations for Example 2.
+
+
+
+     Assume the text of figure 2 is in a file called _p_r_o_g.  Logic
+equations for the state machine are generated by running the com-
+mand
+
+                            _p_e_g _p_r_o_g
+
+     Since this program has two inputs, they are declared in  the
+_I_N_P_U_T_S  statement.   If a _P_E_G program has any inputs they must be
+declared in an _I_N_P_U_T_S statement which must be the first statement
+in the program.  The input _R_E_S_E_T is a special keyword input.  The
+other program input, _I_n_S_t_r_e_a_m, is used to generate the _n_e_x_t _s_t_a_t_e
+for the FSM.
+
+     _R_E_S_E_T indicates that when the _R_E_S_E_T signal is  asserted  the
+state machine jumps to the top of the program, which in this case
+is named _T_o_p.  When this keyword is present, conditional branches
+to  the  first  state  are  automatically added to the _n_e_x_t _s_t_a_t_e
+
+
+
+                              - 6 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+
+INPUTS:              i00:  RESET
+                     i01:  InStream
+                     s00:  InSt0* (msb)
+                     s01:  InSt1* (lsb)
+
+
+OUTPUTS:             n01:  OutSt1* (lsb)
+                     n00:  OutSt0* (msb)
+                     o00:  Accept
+
+
+
+
+State Table           i     i     s      s     n     n     o
+                      0     1     0      1     1     0     0
+     1                -     0     0      0     0     -     Top
+     0                0     0     0      0     0     -     Top
+     0                1     0     0      1     0     -     Top
+
+     1                -     0     1      0     0     -     Saw1
+     0                0     0     1      0     1     -     Saw1
+     0                1     0     1      1     0     -     Saw1
+
+     1                -     1     0      0     0     -     Saw1+1
+     0                0     1     0      1     1     -     Saw1+1
+     0                1     1     0      1     0     -     Saw1+1
+
+     1                -     1     1      0     0     1     Saw1+2
+     0                0     1     1      0     0     1     Saw1+2
+     0                1     1     1      1     0     1     Saw1+2
+
+
+              Figure 8:  Truth table for Example 2.
+
+
+
+expressions for each state.  If _R_E_S_E_T is not listed as an  input,
+the program initializes in a random state.
+
+
+     IF the FSM designer does not want to pay the  penalty  of  a
+larger  and  slower finite state machine, _R_E_S_E_T may be omitted as
+it was in example 1.  In this case  the  reset  function  may  be
+external  to  the  _P_E_G  program by implementing the FSM in such a
+manner that the _n_e_x_t _s_t_a_t_e feedback lines are pulled low when the
+_R_E_S_E_T  signal is asserted.  This method will work because the top
+state in a _P_E_G program is always assigned to state zero.
+
+
+     The _O_U_T_P_U_T_S statement declares that this program has a  sin-
+gle  output called _a_c_c_e_p_t.  The FSM asserts this signal high if a
+
+
+
+
+                              - 7 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+string in the given grammar is recognized.  If  any  outputs  are
+generated  by  a _P_E_G program, they must be declared in an _O_U_T_P_U_T_S
+statement which immediately follows the _I_N_P_U_T_S statement.  If  no
+_I_N_P_U_T_S  statement  is  present, then the _O_U_T_P_U_T_S statement is the
+first program statement.
+
+     Example 2 introduces  the  _I_F-_T_H_E_N-_E_L_S_E  control  construct.
+This  construct is used to provide two-way branches _b_a_s_e_d _o_n_l_y _o_n
+_a _s_i_n_g_l_e _i_n_p_u_t _s_i_g_n_a_l.  Branches based on  more  than  one  input
+signal  are  handled by the _C_A_S_E statement which has not yet been
+presented.  _I_F statements do not nest:  Statements  of  the  form
+_I_F-_T_H_E_N-_E_L_S_E-_I_F are not allowed.  The syntax of the _I_F is:
+
+  _I_F [ _N_O_T ] <_s_i_g_n_a_l> _T_H_E_N <_s_t_a_t_e _n_a_m_e> [ _E_L_S_E <_s_t_a_t_e _n_a_m_e> ] ;
+
+
+The _E_L_S_E clause is optional:  If it is omitted, the _E_L_S_E defaults
+to the next sequential state in the program.  Thus, in state _T_o_p,
+if _I_n_S_t_r_e_a_m is high, then the condition in the _I_F  is  false  and
+the program takes the default branch to state _S_a_w_1.
+
+     The alert reader will have noticed that the state name  _L_O_O_P
+is used but not defined.  This is intentional.  _L_O_O_P is a keyword
+which means to stay in the current state.   It  is  an  error  to
+define a state with the label _L_O_O_P.
+
+     The final state in example 2 shows  the  first  use  of  the
+_A_S_S_E_R_T  statement.   The  _a_c_c_e_p_t  signal  is asserted only in the
+accepting state of the FSM.  If an _A_S_S_E_R_T statement is present in
+the  definition  of  a state, it must preceed the state's control
+statement.
+
+     Figure 11 shows an ambiguous case specifier.  It is  ambigu-
+ous because more than one case selector applies to the input (0 1
+0).  In such cases _P_E_G processes the list of case selectors  from
+top  to  bottom,  using the first one that applies to the inputs.
+Since the case specifier for State2 comes first, it  defines  the
+next  state  for  inputs (0 1 0) and (0 1 1).  The case specifier
+for State3 defines the next-state only for the case (1 1 0).
+
+
+_5.  _F_i_n_a_l _E_x_a_m_p_l_e
+
+
+     Figures 9 and 10 show the state diagram and _P_E_G program  for
+a  state  machine  which  decodes  3  bits  into  0, 1, 2, 3, and
+"other".  Example 3 shows the use of  multiple  inputs,  multiple
+outputs, and multi-way branches.
+
+     Multi-way branches and branches based on two or more  inputs
+are  handled  by the _C_A_S_E statement.  The _C_A_S_E statement consists
+of the keyword _C_A_S_E followed by an input signal list, a  list  of
+case selectors, and an _E_N_D_C_A_S_E.
+
+
+
+                              - 8 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             Figure 9:  State Diagram for Example 3
+
+
+
+     A  case  selector  specifies  two  things:  a  bit   pattern
+corresponding  to  the  input  signals, and a _n_e_x_t-_s_t_a_t_e for that
+combination of inputs.  Bit patterns are strings composed of  the
+characters  '0',  '1',  and  signals  in  the  input signal list.
+Don't-cares are specified with ?.
+
+     The  _E_N_D_C_A_S_E  statement  optionally  specifies  the  default
+next-state  if  none  of  the other case selectors applies to the
+input.  In keeping with the model of sequential execution, if the
+_E_N_D_C_A_S_E does not specify a next-state, the next-state defaults to
+the state following the one in which the _C_A_S_E statement appears.
+
+
+
+                              - 9 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+
+--Decode inputs a, b, and c into
+--0, 1, 2, 3, or "other".
+
+INPUTS       :      RESET Select a b c;
+OUTPUTS      :      Found0 Found1 Found2 Found3 FoundOther;
+
+Start        :      --This is the reset state
+                    IF NOT Select THEN LOOP;
+
+             :      CASE (a b c) --Second state
+                       0 0 ? => Dummy; --A don't-care
+                       0 1 0 => Two;
+                       0 1 1 => Three;
+                    ENDCASE=>Other;
+
+Dummy        :      IF c THEN One;
+
+Zero         :      ASSERT Found0; GOTO Start;
+
+One          :      ASSERT Found1; GOTO Start;
+
+Two          :      ASSERT Found2; GOTO Start;
+
+Three        :      ASSERT Found3; GOTO Start;
+
+Other        :      ASSERT FoundOther; GOTO Start;
+
+
+         Figure 10:  PEG Program for Example 3
+
+
+
+
+
+
+
+
+State1             :             CASE (a b c)
+                                    0 1 ? => State2;
+                                    ? 1 0 => State3;
+                                 ENDCASE=>State4;
+
+         Figure 11:  Ambiguity Resolution in Don't-Cares
+
+
+
+
+
+
+
+
+
+
+
+
+                                - 10 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+
+_6.  _P_e_g _S_y_n_t_a_x
+
+
+<program>       : <InputList> <OutputList> <StateList>
+
+<InputList>     : INPUTS : <IdentList> ; | /*NULL*/
+
+<OutputList>    : OUTPUTS : <IdentList> ; | /*NULL*/
+
+<StateList>     : <State> | <StateList> <State>
+
+<IdentList>     : <Identifier> | <IdentList> <Identifier>
+
+<State>         : <Identifier> : <Signals> <Control> | : <Signals> <Control>
+
+<Signals>       : /*null*/ | <ASSERT> <IdentList> ;
+
+<Control>       : CASE ( <IdentList> ) <Cases> <DefaultCase>
+                | IF <Identifier> THEN <Identifier> ;
+                | IF <Identifier> THEN <Identifier> ELSE <Identifier> ;
+                | IF <NOT> <Identifier> THEN <Identifier> ;
+                | IF <NOT> <Identifier> THEN <Identifier> ELSE <Identifier> ;
+                | GOTO <Identifier>
+                | /*NULL*/
+
+<Cases>         : <Cases> <CaseStmt> | <CaseStmt>
+
+<CaseStmt>      : <BitList> => <Identifier> ;
+
+<Bit>           : 0 | 1 | ?
+
+<BitList>       : <BitList> <Bit> | <Bit>
+
+<DefaultCase>   : ENDCASE => <Identifier> ; | ENDCASE ;
+
+<NOT>           : "!" | "NOT" | "-"
+
+<Comment>       : "--".*$
+
+<Identifier>    : [A-Za-z][A-Za-z0-9._]*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             - 11 -
+
+
+
+
+
+Designing Finite State Machines with PEG                  2/28/85
+
+
+_7.  _R_e_f_e_r_e_n_c_e_s
+
+[CADMan]
+     CAD Manual, Online Unix documentation.
+
+[Danford]
+     Peggy Danford, Private communication with author, June 1982.
+
+[Unix]
+     _U_n_i_x _P_r_o_g_r_a_m_m_e_r'_s _M_a_n_u_a_l, _4._2  _B_e_r_k_e_l_e_y  _S_o_f_t_w_a_r_e  _D_i_s_t_r_i_b_u-
+     _t_i_o_n,  _V_i_r_t_u_a_l  _V_A_X-_1_1  _V_e_r_s_i_o_n,  Computer Science Division,
+     University of California at Berkeley, November 1980.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             - 12 -
+
+

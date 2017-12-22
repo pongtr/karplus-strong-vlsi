@@ -1,0 +1,37 @@
+| units: 30 tech: scmos format: MIT
+p en Vdd! _c0 2 6 25 45
+p bp _c0 sreg_control_0/a_15_0# 2 6 33 45
+p phi0 sreg_control_0/a_15_0# Vdd! 2 6 41 45
+p _c0 Vdd! c0 2 6 57 45
+n en GND! sreg_control_0/a_7_n15# 2 3 25 30
+n bp sreg_control_0/a_7_n15# _c0 2 3 33 30
+n en GND! sreg_control_0/a_7_n30# 2 3 25 15
+n phi0 _c0 sreg_control_0/a_7_n15# 2 3 41 30
+n _c0 GND! c0 2 3 57 30
+n bp sreg_control_0/a_7_n30# _c1 2 3 33 15
+n phi1 _c1 sreg_control_0/a_7_n30# 2 3 41 15
+n _c1 GND! c1 2 3 57 15
+p en Vdd! _c1 2 6 25 -3
+p bp _c1 sreg_control_0/a_15_n48# 2 6 33 -3
+p phi1 sreg_control_0/a_15_n48# Vdd! 2 6 41 -3
+p _c1 Vdd! c1 2 6 57 -3
+C _c0 c1 2.14
+C c1 _c1 2.46
+C _c0 c0 2.54
+C GND! Vdd! 4.38
+R phi1 39
+R sreg_control_0/a_7_n30# 19
+R sreg_control_0/a_7_n15# 19
+R phi0 39
+R bp 80
+R en 80
+R Vdd! 47
+R GND! 6929
+C _c1 GND 3.89
+R _c1 58
+C c1 GND 4.33
+R c1 28
+C _c0 GND 4.39
+R _c0 75
+C c0 GND 4.64
+R c0 45

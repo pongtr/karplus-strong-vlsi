@@ -1,0 +1,11 @@
+--A 0101 sequence detector
+--Moore machine implementation for peg
+
+INPUTS: x;
+OUTPUTS: z;
+
+A:	IF x THEN A ELSE B;
+B:	IF NOT x THEN B ELSE C0;
+C0:	IF x THEN A ELSE D;
+C1:	ASSERT z; IF x THEN A ELSE D;
+D:	IF x THEN C1 ELSE B;

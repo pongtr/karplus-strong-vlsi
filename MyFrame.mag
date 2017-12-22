@@ -1,0 +1,425 @@
+magic
+tech scmos
+timestamp 1509371954
+<< ntransistor >>
+rect -323 1650 -298 1652
+rect -323 1642 -298 1644
+rect -323 1634 -298 1636
+rect -323 1626 -298 1628
+<< ptransistor >>
+rect -385 1650 -335 1652
+rect -385 1642 -335 1644
+rect -385 1634 -335 1636
+rect -385 1626 -335 1628
+<< ndiffusion >>
+rect -323 1657 -298 1658
+rect -318 1653 -314 1657
+rect -323 1652 -298 1653
+rect -323 1649 -298 1650
+rect -323 1644 -298 1645
+rect -323 1641 -298 1642
+rect -318 1637 -314 1641
+rect -323 1636 -298 1637
+rect -323 1633 -298 1634
+rect -323 1628 -298 1629
+rect -323 1625 -298 1626
+rect -318 1621 -314 1625
+<< pdiffusion >>
+rect -385 1657 -335 1658
+rect -385 1652 -335 1653
+rect -385 1649 -335 1650
+rect -385 1644 -335 1645
+rect -385 1641 -335 1642
+rect -385 1636 -335 1637
+rect -385 1633 -335 1634
+rect -385 1628 -335 1629
+rect -385 1625 -335 1626
+<< ndcontact >>
+rect -323 1653 -318 1657
+rect -314 1653 -298 1657
+rect -323 1645 -298 1649
+rect -323 1637 -318 1641
+rect -314 1637 -298 1641
+rect -323 1629 -298 1633
+rect -323 1621 -318 1625
+rect -314 1621 -298 1625
+<< pdcontact >>
+rect -385 1653 -335 1657
+rect -385 1645 -335 1649
+rect -385 1637 -335 1641
+rect -385 1629 -335 1633
+rect -385 1621 -335 1625
+<< psubstratepcontact >>
+rect -323 1658 -298 1662
+<< nsubstratencontact >>
+rect -385 1658 -335 1662
+<< polysilicon >>
+rect -396 1708 -385 1710
+rect -389 1650 -385 1652
+rect -335 1650 -323 1652
+rect -298 1650 -294 1652
+rect -389 1649 -386 1650
+rect -400 1645 -386 1649
+rect -389 1644 -386 1645
+rect -330 1644 -328 1650
+rect -297 1644 -294 1650
+rect -389 1642 -385 1644
+rect -335 1642 -323 1644
+rect -298 1642 -294 1644
+rect -391 1634 -385 1636
+rect -335 1634 -323 1636
+rect -298 1634 -296 1636
+rect -391 1628 -389 1634
+rect -330 1628 -328 1634
+rect -395 1626 -385 1628
+rect -335 1626 -323 1628
+rect -298 1626 -296 1628
+rect -409 1583 -382 1585
+rect -409 1581 -407 1583
+rect -423 1579 -407 1581
+rect -423 1576 -421 1579
+rect -384 1578 -382 1583
+rect -424 1574 -421 1576
+rect -390 1574 -382 1575
+rect -393 1573 -382 1574
+rect -456 1561 -454 1571
+rect -424 1570 -414 1571
+rect -424 1569 -418 1570
+<< polycontact >>
+rect -400 1708 -396 1712
+rect -404 1645 -400 1649
+rect -399 1625 -395 1629
+rect -394 1574 -390 1578
+rect -418 1566 -414 1570
+rect -456 1557 -452 1561
+<< metal1 >>
+rect -1124 2345 -1040 2430
+rect -821 2320 -743 2409
+rect -514 2325 -436 2414
+rect -197 2325 -119 2414
+rect 114 2327 192 2416
+rect 418 2317 496 2406
+rect 732 2325 810 2414
+rect 1022 2310 1134 2424
+rect -782 1629 -769 1826
+rect -473 1772 -460 1826
+rect -164 1774 -151 1854
+rect -469 1711 -460 1772
+rect -281 1770 -151 1774
+rect -280 1764 -151 1770
+rect -281 1762 -151 1764
+rect -299 1715 -285 1718
+rect -469 1706 -404 1711
+rect 145 1689 158 1838
+rect -297 1686 158 1689
+rect -375 1662 -371 1672
+rect -322 1662 -317 1671
+rect -407 1658 -385 1662
+rect -407 1657 -335 1658
+rect -323 1657 -298 1658
+rect -392 1645 -385 1649
+rect -335 1645 -323 1649
+rect -407 1637 -385 1641
+rect -335 1629 -323 1633
+rect -782 1625 -403 1629
+rect -407 1618 -367 1621
+rect -319 1615 -314 1621
+rect -424 1611 -314 1615
+rect -424 1596 -418 1611
+rect -319 1608 -314 1611
+rect -294 1580 -285 1583
+rect -399 1574 -394 1577
+rect -403 1570 -399 1573
+rect -501 1565 -482 1568
+rect -414 1567 -399 1570
+rect -501 1519 -497 1565
+rect -452 1557 -389 1561
+rect 454 1554 467 1838
+rect -297 1551 467 1554
+rect -482 1536 -413 1540
+rect -407 1536 -369 1540
+rect 763 1519 776 1838
+rect -501 1515 776 1519
+<< m2contact >>
+rect -284 1764 -280 1770
+rect -285 1715 -281 1719
+rect -404 1707 -400 1711
+rect -396 1696 -392 1700
+rect -413 1657 -407 1662
+rect -318 1653 -314 1657
+rect -404 1649 -400 1653
+rect -396 1645 -392 1649
+rect -413 1637 -407 1642
+rect -318 1637 -314 1641
+rect -389 1629 -385 1633
+rect -403 1625 -399 1629
+rect -412 1618 -407 1622
+rect -318 1621 -314 1625
+rect -488 1595 -484 1599
+rect -285 1580 -281 1584
+rect -403 1573 -399 1577
+rect -389 1557 -385 1561
+rect -488 1536 -482 1540
+rect -413 1536 -407 1540
+<< metal2 >>
+rect -420 1948 -412 1950
+rect -420 1943 -419 1948
+rect -414 1943 -412 1948
+rect -420 1830 -412 1943
+rect -420 1823 -407 1830
+rect -413 1662 -407 1823
+rect -329 1826 -328 1830
+rect -329 1742 -325 1826
+rect -285 1770 -279 1774
+rect -285 1764 -284 1770
+rect -280 1764 -279 1770
+rect -285 1719 -279 1764
+rect -281 1715 -279 1719
+rect -413 1642 -407 1657
+rect -404 1653 -400 1707
+rect -404 1645 -400 1649
+rect -396 1649 -392 1696
+rect -318 1657 -314 1662
+rect -413 1622 -407 1637
+rect -318 1641 -314 1653
+rect -413 1618 -412 1622
+rect -488 1540 -484 1595
+rect -413 1540 -407 1618
+rect -403 1577 -399 1625
+rect -389 1561 -385 1629
+rect -318 1625 -314 1637
+rect -285 1584 -279 1715
+rect -281 1580 -279 1584
+<< m3contact >>
+rect -419 1943 -414 1948
+rect -328 1826 -324 1830
+<< metal3 >>
+rect -420 1948 -412 1950
+rect -420 1943 -419 1948
+rect -414 1943 -412 1948
+rect -420 1942 -412 1943
+rect -329 1830 -323 1831
+rect -329 1826 -328 1830
+rect -324 1826 -323 1830
+rect -329 1825 -323 1826
+use BlankPad  t0
+timestamp 1006127261
+transform 1 0 -1540 0 1 1868
+box -11 -51 298 632
+use GNDPad  t1
+timestamp 1509371954
+transform 1 0 -1242 0 1 1852
+box 0 -35 309 648
+use InPad  t2
+timestamp 1509371954
+transform 1 0 -901 0 1 2183
+box -32 -366 277 317
+use InPad  t3
+timestamp 1509371954
+transform 1 0 -592 0 1 2183
+box -32 -366 277 317
+use InPad  t4
+timestamp 1509371954
+transform 1 0 -283 0 1 2183
+box -32 -366 277 317
+use OutPad  t5
+timestamp 1012172318
+transform 1 0 -23 0 1 1843
+box 17 -26 326 657
+use OutPad  t6
+timestamp 1012172318
+transform 1 0 286 0 1 1843
+box 17 -26 326 657
+use OutPad  t7
+timestamp 1012172318
+transform 1 0 595 0 1 1843
+box 17 -26 326 657
+use VddPad  t8
+timestamp 1509371954
+transform 1 0 921 0 1 1852
+box 0 -35 309 648
+use BlankPad  t9
+timestamp 1006127261
+transform 1 0 1241 0 1 1868
+box -11 -51 298 632
+use flop  g
+timestamp 1007670071
+transform 1 0 -352 0 1 1702
+box -41 -31 56 41
+use _phi0_latch  p
+timestamp 1007670165
+transform 1 0 -470 0 1 1575
+box -20 -11 51 21
+use Corner  clt
+timestamp 1012241868
+transform 1 0 -2325 0 1 1869
+box -143 -333 774 618
+use flop  f
+timestamp 1007670071
+transform 1 0 -349 0 1 1567
+box -41 -31 56 41
+use Corner  crt
+timestamp 1012241868
+transform 0 1 1869 -1 0 2325
+box -143 -333 774 618
+use BlankPad  l9
+timestamp 1006127261
+transform 0 -1 -1868 1 0 1240
+box -11 -51 298 632
+use BlankPad  l8
+timestamp 1006127261
+transform 0 -1 -1868 1 0 931
+box -11 -51 298 632
+use BlankPad  l7
+timestamp 1006127261
+transform 0 -1 -1868 1 0 622
+box -11 -51 298 632
+use BlankPad  l6
+timestamp 1006127261
+transform 0 -1 -1868 1 0 313
+box -11 -51 298 632
+use BlankPad  l5
+timestamp 1006127261
+transform 0 -1 -1868 1 0 4
+box -11 -51 298 632
+use BlankPad  l4
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -305
+box -11 -51 298 632
+use BlankPad  l3
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -614
+box -11 -51 298 632
+use BlankPad  l2
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -923
+box -11 -51 298 632
+use BlankPad  l1
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -1232
+box -11 -51 298 632
+use BlankPad  r9
+timestamp 1006127261
+transform 0 1 1868 -1 0 1540
+box -11 -51 298 632
+use BlankPad  r8
+timestamp 1006127261
+transform 0 1 1868 -1 0 1231
+box -11 -51 298 632
+use BlankPad  r7
+timestamp 1006127261
+transform 0 1 1868 -1 0 922
+box -11 -51 298 632
+use BlankPad  r6
+timestamp 1006127261
+transform 0 1 1868 -1 0 613
+box -11 -51 298 632
+use BlankPad  r5
+timestamp 1006127261
+transform 0 1 1868 -1 0 304
+box -11 -51 298 632
+use BlankPad  r4
+timestamp 1006127261
+transform 0 1 1868 -1 0 -5
+box -11 -51 298 632
+use BlankPad  r3
+timestamp 1006127261
+transform 0 1 1868 -1 0 -314
+box -11 -51 298 632
+use BlankPad  r2
+timestamp 1006127261
+transform 0 1 1868 -1 0 -623
+box -11 -51 298 632
+use BlankPad  r1
+timestamp 1006127261
+transform 0 1 1868 -1 0 -932
+box -11 -51 298 632
+use BlankPad  r0
+timestamp 1006127261
+transform 0 1 1868 -1 0 -1241
+box -11 -51 298 632
+use BlankPad  l0
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -1541
+box -11 -51 298 632
+use Corner  clb
+timestamp 1012241868
+transform 0 -1 -1869 1 0 -2325
+box -143 -333 774 618
+use BlankPad  b0
+timestamp 1006127261
+transform -1 0 -1240 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b1
+timestamp 1006127261
+transform -1 0 -931 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b2
+timestamp 1006127261
+transform -1 0 -622 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b3
+timestamp 1006127261
+transform -1 0 -313 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b4
+timestamp 1006127261
+transform -1 0 -4 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b5
+timestamp 1006127261
+transform -1 0 305 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b6
+timestamp 1006127261
+transform -1 0 614 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b7
+timestamp 1006127261
+transform -1 0 923 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b8
+timestamp 1006127261
+transform -1 0 1232 0 -1 -1868
+box -11 -51 298 632
+use Corner  crb
+timestamp 1012241868
+transform -1 0 2325 0 -1 -1869
+box -143 -333 774 618
+use BlankPad  b9
+timestamp 1006127261
+transform -1 0 1541 0 -1 -1868
+box -11 -51 298 632
+<< labels >>
+rlabel space 0 0 0 0 2 Core
+rlabel pdcontact -384 1622 -384 1622 1 Vdd!
+rlabel ndcontact -322 1622 -322 1622 1 GND!
+rlabel ndcontact -322 1640 -322 1640 5 GND!
+rlabel pdcontact -384 1640 -384 1640 5 Vdd!
+rlabel pdcontact -384 1638 -384 1638 1 Vdd!
+rlabel ndcontact -322 1638 -322 1638 1 GND!
+rlabel ndcontact -322 1656 -322 1656 5 GND!
+rlabel pdcontact -384 1656 -384 1656 5 Vdd!
+rlabel metal1 -784 2357 -780 2357 1 p0
+rlabel metal1 -469 2373 -469 2373 1 p1
+rlabel metal1 -160 2365 -160 2365 1 p2
+rlabel metal1 137 2368 137 2368 1 p3
+rlabel metal1 451 2362 451 2362 1 p4
+rlabel metal1 767 2362 767 2362 1 p5
+rlabel metal1 -1083 2383 -1081 2384 1 p6
+rlabel metal1 1071 2361 1072 2361 1 p7
+rlabel polysilicon -386 1627 -386 1627 1 q0
+rlabel polysilicon -324 1635 -324 1635 1 q0
+rlabel polysilicon -386 1635 -386 1635 1 q0
+rlabel polysilicon -386 1651 -386 1651 1 q1
+rlabel polysilicon -324 1651 -324 1651 1 q1
+rlabel polysilicon -386 1643 -386 1643 1 q1
+rlabel pdcontact -360 1648 -360 1648 1 _q1
+rlabel pdcontact -360 1646 -360 1646 1 _q1
+rlabel ndcontact -322 1648 -322 1648 1 _q1
+rlabel ndcontact -322 1646 -322 1646 1 _q1
+rlabel ndcontact -322 1630 -322 1630 1 _q0
+rlabel ndcontact -322 1632 -322 1632 1 _q0
+rlabel pdcontact -360 1630 -360 1630 1 _q0
+rlabel pdcontact -360 1632 -360 1632 1 _q0
+<< end >>

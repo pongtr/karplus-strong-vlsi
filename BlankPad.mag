@@ -1,0 +1,16 @@
+magic
+tech scmos
+timestamp 1006127261
+<< metal1 >>
+rect 96 -51 192 324
+use barepad b
+timestamp 1006127261
+transform 1 0 -2 0 1 -382
+box 16 702 276 1014
+use barering br
+timestamp 1006127261
+transform 1 0 -13 0 1 -28
+box 2 -23 311 176
+<< labels >>
+rlabel metal1 145 205 145 205 1 Raw
+<< end >>

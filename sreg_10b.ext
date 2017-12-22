@@ -1,0 +1,17 @@
+timestamp 1512379799
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+use sreg_pair sreg_pair_0[0:0:56][0:9:124] 1 0 3 0 1 0
+node "w_21_1239#" 1695 764.904 21 1239 nw 16 16 0 0 84 40 0 0 0 0 0 0 0 0 40 28 0 0 0 0
+cap "sreg_pair_0[9]/w_24_106#" "sreg_pair_0[9]/sreg_1/Vdd!" 63.798
+merge "sreg_pair_0[9]/sreg_1/GND!" "sreg_pair_0[9]/w_24_106#" -215.646 0 0 0 0 -14 -30 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "sreg_pair_0[9]/w_24_106#" "w_21_1239#"
+cap "sreg_pair_0[0:8]/w_24_106#" "sreg_pair_0[0:8]/sreg_0/Vdd!" 123.428
+merge "sreg_pair_0[1:9]/sreg_1/Vdd!" "sreg_pair_0[1:9]/sreg_0/Vdd!" -28.476 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0
+merge "sreg_pair_0[1:9]/sreg_0/Vdd!" "sreg_pair_0[0:8]/sreg_0/Vdd!"
+merge "sreg_pair_0[1:9]/sreg_0/GND!" "sreg_pair_0[0:8]/w_24_106#" -402.678 0 0 0 0 -45 -118 0 0 0 0 0 0 0 0 0 -12 0 0 0 0
+merge "sreg_pair_0[0:8]/w_24_106#" "sreg_pair_0[0:8]/sreg_0/GND!"
+merge "sreg_pair_0[0:8]/sreg_0/GND!" "sreg_pair_0[0:8]/sreg_1/GND!"

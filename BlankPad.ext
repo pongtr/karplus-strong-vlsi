@@ -1,0 +1,18 @@
+timestamp 1006127261
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+use barepad b 1 0 -2 0 1 -382
+use barering br 1 0 -13 0 1 -28
+node "Raw" 0 139808 96 -51 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 942 0 0 0 0
+subcap "Raw" -142432
+subcap "Raw" -113015
+cap "br/GND!" "Raw" 12777
+cap "Raw" "br/GND!" 577.554
+cap "Raw" "br/GND!" 2106.23
+cap "br/Vdd!" "Raw" 10610.4
+cap "br/Vdd!" "Raw" 467.076
+cap "Raw" "br/GND!" 60.84
+merge "b/m1_16_754#" "Raw" -2363.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -356 -200 0 0 0 0

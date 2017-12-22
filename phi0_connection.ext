@@ -1,0 +1,7 @@
+timestamp 1512513482
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+node "a_0_n13#" 3 1164.7 0 -13 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 124 70 32 24 36 24

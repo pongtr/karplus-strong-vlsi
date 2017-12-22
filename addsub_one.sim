@@ -1,0 +1,75 @@
+| units: 30 tech: scmos format: MIT
+p b Vdd! _b 2 4 52 42
+p a Vdd! _a 2 4 92 43
+p a Vdd! a_n3_31# 2 7 -5 31
+p a a_n3_31# a_5_31# 2 7 3 31
+p b a_5_31# _cout 2 7 11 31
+p cin _cout a_5_31# 2 7 19 31
+p cin a_5_31# a_n3_31# 2 7 27 31
+p b a_n3_31# Vdd! 2 7 35 31
+p _a Vdd! a_46_31# 2 7 44 31
+p b a_46_31# a_53_31# 2 7 51 31
+p cin a_53_31# s 2 7 60 31
+p cin s a_70_31# 2 7 68 31
+p _b a_70_31# a_78_31# 2 7 76 31
+p a a_78_31# Vdd! 2 7 84 31
+p a Vdd! a_94_31# 2 7 92 31
+p b a_94_31# a_102_31# 2 7 100 31
+p _cin a_102_31# s 2 7 108 31
+p _cin s a_118_31# 2 7 116 31
+p _b a_118_31# a_126_31# 2 7 124 31
+p _a a_126_31# Vdd! 2 7 132 31
+p _cout Vdd! cout 2 7 140 31
+n a _cout a_3_9# 2 7 1 9
+n b a_3_9# GND! 2 7 6 9
+n b GND! a_16_9# 2 7 14 9
+n cin a_16_9# _cout 2 7 19 9
+n cin _cout a_29_9# 2 7 27 9
+n a a_29_9# GND! 2 7 32 9
+n _a GND! a_46_9# 2 7 44 9
+n b a_46_9# GND! 2 7 52 9
+n cin GND! a_46_9# 2 7 60 9
+n cin a_46_9# a_70_9# 2 7 68 9
+n _b a_70_9# a_46_9# 2 7 76 9
+n a a_46_9# a_70_9# 2 7 84 9
+n a a_70_9# a_94_9# 2 7 92 9
+n b a_94_9# a_70_9# 2 7 100 9
+n _cin a_70_9# a_94_9# 2 7 108 9
+n _cin a_94_9# s 2 7 116 9
+n _b s a_94_9# 2 7 124 9
+n _a a_94_9# s 2 7 132 9
+n a _a GND! 2 4 9 -6
+n b GND! _b 2 4 52 -2
+n _cout GND! cout 2 4 149 6
+p cin _cin Vdd! 2 4 -10 -18
+n cin _cin GND! 2 4 21 -18
+C Vdd! GND! 5.62
+C Vdd! cin 3.87
+C Vdd! _cin 4.90
+C Vdd! _cout 3.36
+C Vdd! a 4.65
+C Vdd! _a 6.80
+C GND! cin 5.01
+C Vdd! b 4.52
+C GND! a 4.31
+C _a GND! 2.36
+C b GND! 4.22
+C Vdd! _b 3.31
+R a_94_9# 29
+R a_70_9# 29
+R a_46_9# 29
+R s 34
+R a_5_31# 15
+R a_n3_31# 15
+R _cout 95
+R _cin 123
+R _a 267
+R _b 126
+R cin 259
+C a GND 4.11
+R a 429
+C b GND 5.88
+R b 543
+C Vdd! GND 2.66
+R Vdd! 77
+R GND! 6948

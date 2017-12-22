@@ -1,0 +1,421 @@
+timestamp 1512534937
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+use sreg_left_control sreg_left_control_0 1 0 -99 0 1 1181
+use sreg sreg_0[0:0:27][0:9:124] 1 0 9 0 1 100
+use sreg_01_right sreg_01_right_0[0:0:19][0:9:124] 1 0 27 0 1 36
+cap "sreg_left_control_0/sreg_left_one_0[0]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[0]/a_12_n288#" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_12_n288#" "sreg_0[0]/GND!" 798.22
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[0]/a_n9_n219#" 7.10543e-15
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_5_n281#" "sreg_0[0]/w_n9_n17#" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[0]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[0]/a_5_n281#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_n9_n219#" "sreg_0[0]/GND!" -20.772
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[0]/m2_n76_n293#" -8.172
+cap "sreg_0[0]/GND!" "sreg_0[0]/a_7_n29#" 1.42109e-14
+cap "sreg_left_control_0/sreg_left_one_0[0]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[0]/a_12_n288#" 10.215
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_n9_n219#" "sreg_0[0]/w_n9_n17#" -19.206
+cap "sreg_0[0]/a_7_n91#" "sreg_0[0]/GND!" 50.408
+cap "sreg_left_control_0/sreg_left_one_0[0]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[0]/a_n9_n219#" -8.172
+cap "sreg_0[0]/a_0_n91#" "sreg_0[0]/GND!" -9.23706e-14
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_5_n281#" "sreg_0[0]/GND!" -20.772
+cap "sreg_0[0]/GND!" "sreg_0[0]/w_n9_n17#" -5.648
+cap "sreg_left_control_0/sreg_left_one_0[0]/m2_n76_n293#" "sreg_0[0]/GND!" -30.432
+cap "sreg_0[0]/w_n9_n17#" "sreg_0[0]/a_7_n29#" 67.056
+cap "sreg_0[0]/a_7_n91#" "sreg_0[0]/w_n9_n17#" 14.526
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_n2_n226#" "sreg_0[0]/GND!" -39.978
+cap "sreg_left_control_0/sreg_left_one_0[0]/a_12_n288#" "sreg_0[0]/GND!" 93.186
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[1]/m2_n76_n293#" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_12_n288#" "sreg_0[1]/GND!" 798.22
+cap "sreg_0[0]/Vdd!" "sreg_left_control_0/sreg_left_one_0[1]/a_5_n281#" -19.206
+cap "sreg_0[1]/GND!" "sreg_0[1]/a_0_n39#" 3.41061e-13
+cap "sreg_0[0]/Vdd!" "sreg_0[1]/a_0_n91#" -3.55271e-15
+cap "sreg_0[1]/GND!" "sreg_left_control_0/sreg_left_one_0[1]/a_12_n288#" 93.186
+cap "sreg_left_control_0/sreg_left_one_0[1]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[1]/a_12_n288#" 10.215
+cap "sreg_0[0]/Vdd!" "sreg_0[1]/a_0_n39#" -3.55271e-15
+cap "sreg_left_control_0/sreg_left_one_0[1]/m2_n76_n293#" "sreg_0[1]/GND!" -30.432
+cap "sreg_0[1]/GND!" "sreg_0[1]/a_7_n91#" 50.408
+cap "sreg_0[0]/Vdd!" "sreg_0[0]/i0" -5.68434e-14
+cap "sreg_0[1]/GND!" "sreg_left_control_0/sreg_left_one_0[1]/a_5_n281#" -20.772
+cap "sreg_0[1]/GND!" "sreg_0[0]/Vdd!" 0.454
+cap "sreg_0[0]/Vdd!" "sreg_0[1]/a_7_n91#" 14.526
+cap "sreg_0[1]/GND!" "sreg_0[1]/a_0_n91#" -8.52651e-14
+cap "sreg_left_control_0/sreg_left_one_0[1]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[1]/a_5_n281#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_12_n288#" "sreg_0[2]/GND!" 798.22
+cap "sreg_left_control_0/sreg_left_one_0[2]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[2]/a_12_n288#" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[1]/a_n9_n219#" 7.10543e-15
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_n9_n219#" "sreg_0[1]/Vdd!" -19.206
+cap "sreg_0[2]/GND!" "sreg_0[1]/w_n9_n53#" 4.44089e-15
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_n2_n226#" "sreg_0[1]/i0" -8.172
+cap "sreg_0[1]/Vdd!" "sreg_0[2]/a_7_n91#" 14.526
+cap "sreg_0[1]/i0" "sreg_left_control_0/sreg_left_one_0[1]/a_n9_n219#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[2]/m2_n76_n293#" "sreg_0[2]/GND!" -30.432
+cap "sreg_0[2]/GND!" "sreg_0[1]/Vdd!" 0.454
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_5_n281#" "sreg_0[2]/GND!" -20.772
+cap "sreg_0[2]/GND!" "sreg_0[2]/a_0_n91#" -1.42109e-14
+cap "sreg_0[1]/a_7_n29#" "sreg_0[1]/Vdd!" 67.056
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_12_n288#" "sreg_0[2]/GND!" 93.186
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_n2_n226#" "sreg_0[2]/GND!" -20.772
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_n2_n226#" "sreg_0[1]/w_n9_n53#" -19.206
+cap "sreg_0[2]/GND!" "sreg_0[2]/w_n9_n53#" -7.10543e-15
+cap "sreg_0[1]/i0" "sreg_0[2]/GND!" -1.13687e-13
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_5_n281#" "sreg_left_control_0/sreg_left_one_0[2]/m2_n76_n293#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_5_n281#" "sreg_0[1]/Vdd!" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[1]/a_n9_n219#" "sreg_0[2]/GND!" -20.772
+cap "sreg_left_control_0/sreg_left_one_0[2]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[2]/a_12_n288#" 10.215
+cap "sreg_0[2]/GND!" "sreg_0[2]/a_7_n91#" 50.408
+cap "sreg_0[1]/i0" "sreg_0[1]/Vdd!" -1.7053e-13
+cap "sreg_left_control_0/sreg_left_one_0[3]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[3]/m2_n76_n293#" -2.84217e-14
+cap "sreg_0[3]/GND!" "sreg_left_control_0/sreg_left_one_0[3]/a_12_n288#" 768.38
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[2]/a_n9_n219#" 7.10543e-15
+cap "sreg_0[3]/a_7_n91#" "sreg_0[2]/Vdd!" 14.526
+cap "sreg_0[3]/GND!" "sreg_left_control_0/sreg_left_one_0[2]/a_n9_n219#" -20.772
+cap "sreg_0[3]/a_7_n91#" "sreg_0[3]/GND!" 50.408
+cap "sreg_0[2]/i0" "sreg_left_control_0/sreg_left_one_0[2]/a_n9_n219#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[3]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[3]/a_5_n281#" -8.172
+cap "sreg_0[3]/GND!" "sreg_0[2]/a_0_n39#" 3.41061e-13
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_n2_n226#" "sreg_0[3]/GND!" -39.978
+cap "sreg_left_control_0/sreg_left_one_0[3]/a_5_n281#" "sreg_0[2]/Vdd!" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[3]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[3]/a_12_n288#" 10.215
+cap "sreg_left_control_0/sreg_left_one_0[3]/m2_n76_n293#" "sreg_0[3]/GND!" -30.432
+cap "sreg_left_control_0/sreg_left_one_0[3]/a_5_n281#" "sreg_0[3]/GND!" -20.772
+cap "sreg_0[2]/a_0_n91#" "sreg_0[3]/GND!" 3.55271e-15
+cap "sreg_left_control_0/sreg_left_one_0[2]/a_n2_n226#" "sreg_0[2]/i0" -8.172
+cap "sreg_0[2]/a_7_n29#" "sreg_0[2]/Vdd!" 67.056
+cap "sreg_0[2]/Vdd!" "sreg_0[3]/GND!" 9.832
+cap "sreg_0[3]/GND!" "sreg_left_control_0/sreg_left_one_0[3]/a_12_n288#" 93.186
+cap "sreg_0[2]/i0" "sreg_0[2]/Vdd!" -1.7053e-13
+cap "sreg_0[3]/a_0_n91#" "sreg_0[3]/GND!" -7.10543e-14
+cap "sreg_0[2]/Vdd!" "sreg_left_control_0/sreg_left_one_0[2]/a_n9_n219#" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[3]/a_12_n288#" "sreg_0[4]/GND!" 798.22
+cap "sreg_left_control_0/sreg_left_one_0[3]/a_n9_n219#" "sreg_left_control_0/sreg_left_one_0[3]/a_n2_n226#" 7.10543e-15
+cap "sreg_0[3]/i0" "sreg_left_control_0/sreg_left_one_0[3]/a_n2_n226#" -8.172
+cap "sreg_0[4]/GND!" "sreg_0[3]/Vdd!" 0.454
+cap "sreg_0[4]/GND!" "sreg_left_control_0/sreg_left_one_0[3]/a_n9_n219#" -20.772
+cap "sreg_left_control_0/sreg_left_one_0[3]/a_n9_n219#" "sreg_0[3]/Vdd!" -19.206
+cap "sreg_0[3]/i0" "sreg_0[3]/Vdd!" -1.7053e-13
+cap "sreg_0[4]/GND!" "sreg_0[3]/i0" 3.41061e-13
+cap "sreg_0[3]/i0" "sreg_left_control_0/sreg_left_one_0[3]/a_n9_n219#" -8.172
+cap "sreg_0[3]/Vdd!" "sreg_0[3]/a_7_n29#" 67.056
+cap "sreg_0[4]/GND!" "sreg_0[3]/a_7_n29#" -1.42109e-14
+cap "sreg_0[4]/GND!" "sreg_0[3]/a_0_n91#" 2.84217e-14
+cap "sreg_0[3]/a_0_n39#" "sreg_0[3]/Vdd!" 2.4869e-14
+cap "sreg_0[4]/GND!" "sreg_0[3]/a_0_n39#" 5.68434e-14
+cap "sreg_0[4]/GND!" "sreg_left_control_0/sreg_left_one_0[3]/a_n2_n226#" -39.978
+cap "sreg_left_control_0/sreg_left_one_0[4]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[4]/a_n9_n219#" 7.10543e-15
+cap "sreg_left_control_0/sreg_left_one_0[4]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[4]/a_12_n288#" "sreg_0[4]/GND!" 775.84
+cap "sreg_left_control_0/sreg_left_one_0[4]/a_n2_n226#" "sreg_0[4]/GND!" -39.978
+cap "sreg_0[4]/a_7_n29#" "sreg_0[4]/GND!" 1.42109e-14
+cap "sreg_0[4]/a_7_n91#" "sreg_0[4]/GND!" 50.408
+cap "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[4]/a_n9_n219#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" "sreg_0[4]/GND!" -30.432
+cap "sreg_0[4]/GND!" "sreg_0[4]/a_0_n91#" -1.98952e-13
+cap "sreg_0[3]/Vdd!" "sreg_left_control_0/sreg_left_one_0[4]/a_5_n281#" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[4]/a_n9_n219#" "sreg_0[4]/GND!" -20.772
+cap "sreg_0[4]/a_7_n29#" "sreg_0[3]/Vdd!" 67.056
+cap "sreg_0[4]/a_7_n91#" "sreg_0[3]/Vdd!" 14.526
+cap "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[4]/a_12_n288#" 10.215
+cap "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[4]/a_5_n281#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" "sreg_0[3]/Vdd!" -1.77636e-14
+cap "sreg_left_control_0/sreg_left_one_0[4]/a_12_n288#" "sreg_0[4]/GND!" 93.186
+cap "sreg_0[3]/Vdd!" "sreg_left_control_0/sreg_left_one_0[4]/a_n9_n219#" -19.206
+cap "sreg_0[3]/Vdd!" "sreg_0[4]/GND!" -5.648
+cap "sreg_0[4]/GND!" "sreg_left_control_0/sreg_left_one_0[4]/a_5_n281#" -20.772
+cap "sreg_left_control_0/sreg_left_one_0[4]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" -8.172
+cap "sreg_0[5]/GND!" "sreg_left_control_0/sreg_left_one_0[5]/a_12_n288#" 798.22
+cap "sreg_left_control_0/sreg_left_one_0[5]/a_n9_n219#" "sreg_left_control_0/sreg_left_one_0[5]/a_n2_n226#" 3.55271e-15
+cap "sreg_left_control_0/sreg_left_one_0[5]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[5]/a_12_n288#" -2.84217e-14
+cap "sreg_0[4]/Vdd!" "sreg_0[5]/a_0_n39#" -3.55271e-15
+cap "sreg_0[5]/GND!" "sreg_0[5]/a_7_n91#" 50.408
+cap "sreg_0[5]/GND!" "sreg_0[5]/a_0_n91#" -9.9476e-14
+cap "sreg_0[4]/i0" "sreg_0[4]/Vdd!" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[5]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[5]/m2_n76_n293#" 10.215
+cap "sreg_0[4]/a_7_n29#" "sreg_0[4]/Vdd!" 5.68434e-14
+cap "sreg_left_control_0/sreg_left_one_0[5]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[5]/a_5_n281#" -8.172
+cap "sreg_0[4]/Vdd!" "sreg_left_control_0/sreg_left_one_0[5]/a_5_n281#" -19.206
+cap "sreg_0[5]/GND!" "sreg_left_control_0/sreg_left_one_0[5]/a_n2_n226#" -39.978
+cap "sreg_0[4]/Vdd!" "sreg_0[5]/a_7_n91#" 14.526
+cap "sreg_0[5]/a_0_n91#" "sreg_0[4]/Vdd!" -3.55271e-15
+cap "sreg_left_control_0/sreg_left_one_0[5]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[5]/m2_n76_n293#" -8.172
+cap "sreg_0[5]/GND!" "sreg_0[4]/i0" -2.27374e-13
+cap "sreg_left_control_0/sreg_left_one_0[5]/a_12_n288#" "sreg_0[5]/GND!" 93.186
+cap "sreg_0[5]/GND!" "sreg_left_control_0/sreg_left_one_0[5]/a_5_n281#" -20.772
+cap "sreg_0[5]/GND!" "sreg_left_control_0/sreg_left_one_0[5]/m2_n76_n293#" -30.432
+cap "sreg_0[5]/GND!" "sreg_0[4]/Vdd!" 0.454
+cap "sreg_0[6]/GND!" "sreg_left_control_0/sreg_left_one_0[6]/a_12_n288#" 798.22
+cap "sreg_left_control_0/sreg_left_one_0[6]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[6]/a_12_n288#" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[5]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[5]/a_n9_n219#" 3.55271e-15
+cap "sreg_0[6]/a_0_n91#" "sreg_0[6]/GND!" -9.9476e-14
+cap "sreg_0[5]/Vdd!" "sreg_0[6]/GND!" 0.454
+cap "sreg_0[6]/a_7_n91#" "sreg_0[5]/Vdd!" 14.526
+cap "sreg_0[5]/i0" "sreg_0[5]/Vdd!" -1.7053e-13
+cap "sreg_0[5]/Vdd!" "sreg_0[6]/a_0_n91#" -3.55271e-15
+cap "sreg_0[5]/Vdd!" "sreg_0[5]/a_7_n29#" 67.056
+cap "sreg_0[6]/GND!" "sreg_left_control_0/sreg_left_one_0[6]/a_5_n281#" -20.772
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[6]/m2_n76_n293#" 10.215
+cap "sreg_left_control_0/sreg_left_one_0[6]/m2_n76_n293#" "sreg_0[6]/GND!" -30.432
+cap "sreg_0[5]/Vdd!" "sreg_left_control_0/sreg_left_one_0[6]/a_5_n281#" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[6]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[6]/a_5_n281#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[5]/a_n9_n219#" "sreg_0[6]/GND!" -20.772
+cap "sreg_0[5]/i0" "sreg_left_control_0/sreg_left_one_0[5]/a_n9_n219#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_12_n288#" "sreg_0[6]/GND!" 93.186
+cap "sreg_0[6]/a_7_n91#" "sreg_0[6]/GND!" 50.408
+cap "sreg_left_control_0/sreg_left_one_0[5]/a_n9_n219#" "sreg_0[5]/Vdd!" -19.206
+cap "sreg_0[5]/i0" "sreg_0[6]/GND!" -1.13687e-13
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_n9_n219#" "sreg_left_control_0/sreg_left_one_0[6]/a_n2_n226#" 7.10543e-15
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_12_n288#" "sreg_0[7]/GND!" 768.38
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[7]/m2_n76_n293#" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_5_n281#" "sreg_0[6]/Vdd!" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_n2_n226#" "sreg_0[6]/i0" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_5_n281#" "sreg_left_control_0/sreg_left_one_0[7]/m2_n76_n293#" -8.172
+cap "sreg_0[7]/a_0_n91#" "sreg_0[7]/GND!" -7.10543e-14
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_12_n288#" "sreg_0[7]/GND!" 93.186
+cap "sreg_0[7]/a_0_n91#" "sreg_0[6]/Vdd!" -2.84217e-14
+cap "sreg_0[7]/GND!" "sreg_0[6]/Vdd!" 13.562
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_n9_n219#" "sreg_0[7]/GND!" -20.772
+cap "sreg_0[7]/a_7_n91#" "sreg_0[7]/GND!" 50.408
+cap "sreg_left_control_0/sreg_left_one_0[7]/m2_n76_n293#" "sreg_0[7]/GND!" -30.432
+cap "sreg_0[6]/a_0_n39#" "sreg_0[7]/GND!" 3.97904e-13
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_n9_n219#" "sreg_0[6]/Vdd!" -19.206
+cap "sreg_0[7]/a_7_n91#" "sreg_0[6]/Vdd!" 14.526
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[7]/m2_n76_n293#" 10.215
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_n2_n226#" "sreg_0[7]/GND!" -39.978
+cap "sreg_0[6]/i0" "sreg_0[7]/GND!" 1.13687e-13
+cap "sreg_left_control_0/sreg_left_one_0[6]/a_n9_n219#" "sreg_0[6]/i0" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_5_n281#" "sreg_0[7]/GND!" -20.772
+cap "sreg_0[6]/i0" "sreg_0[6]/Vdd!" -1.7053e-13
+cap "sreg_0[6]/a_7_n29#" "sreg_0[6]/Vdd!" 67.056
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_n9_n219#" "sreg_left_control_0/sreg_left_one_0[7]/a_n2_n226#" 7.10543e-15
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_12_n288#" "sreg_0[8]/GND!" 798.22
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_n2_n226#" "sreg_0[8]/GND!" -39.978
+cap "sreg_0[7]/a_0_n91#" "sreg_0[8]/GND!" -3.55271e-14
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_12_n288#" "sreg_0[8]/GND!" 7.10543e-15
+cap "sreg_0[7]/a_0_n91#" "sreg_0[7]/Vdd!" 2.84217e-14
+cap "sreg_0[7]/a_7_n29#" "sreg_0[8]/GND!" -7.10543e-15
+cap "sreg_0[8]/GND!" "sreg_0[7]/Vdd!" -7.006
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_n9_n219#" "sreg_0[8]/GND!" -20.772
+cap "sreg_0[7]/a_7_n29#" "sreg_0[7]/Vdd!" 67.056
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_n2_n226#" "sreg_0[7]/i0" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_n9_n219#" "sreg_0[7]/Vdd!" -19.206
+cap "sreg_0[8]/GND!" "sreg_0[7]/i0" 3.97904e-13
+cap "sreg_left_control_0/sreg_left_one_0[7]/a_n9_n219#" "sreg_0[7]/i0" -8.172
+cap "sreg_0[7]/i0" "sreg_0[7]/Vdd!" -1.13687e-13
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_n9_n219#" "sreg_left_control_0/sreg_left_one_0[8]/a_n2_n226#" 7.10543e-15
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_12_n288#" "sreg_0[8]/GND!" 775.84
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" -2.84217e-14
+cap "sreg_0[8]/w_n9_n17#" "sreg_0[8]/a_7_n91#" 14.526
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_5_n281#" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_12_n288#" "sreg_0[8]/GND!" 93.186
+cap "sreg_0[8]/GND!" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" -30.432
+cap "sreg_0[8]/a_0_n91#" "sreg_0[8]/GND!" -2.13163e-13
+cap "sreg_0[8]/a_7_n29#" "sreg_0[8]/GND!" 1.42109e-14
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_n2_n226#" "sreg_0[8]/GND!" -39.978
+cap "sreg_0[8]/w_n9_n17#" "sreg_0[8]/a_0_n91#" -3.55271e-15
+cap "sreg_0[8]/a_7_n29#" "sreg_0[8]/w_n9_n17#" 67.056
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_n9_n219#" "sreg_0[8]/GND!" -20.772
+cap "sreg_0[8]/w_n9_n17#" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" 1.42109e-14
+cap "sreg_0[8]/w_n9_n17#" "sreg_left_control_0/sreg_left_one_0[8]/a_n9_n219#" -19.206
+cap "sreg_0[8]/w_n9_9#" "sreg_0[8]/GND!" -2.66454e-15
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_5_n281#" "sreg_0[8]/GND!" -20.772
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" 10.215
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_5_n281#" "sreg_0[8]/w_n9_n17#" -19.206
+cap "sreg_left_control_0/sreg_left_one_0[8]/a_n9_n219#" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" -8.172
+cap "sreg_0[8]/GND!" "sreg_0[8]/a_0_n39#" 5.68434e-14
+cap "sreg_0[8]/w_n9_n17#" "sreg_0[8]/GND!" -5.648
+cap "sreg_0[8]/a_7_n91#" "sreg_0[8]/GND!" 50.408
+cap "sreg_0[8]/w_n9_n17#" "sreg_0[8]/a_0_n39#" 2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[9]/m2_n76_n293#" "sreg_left_control_0/sreg_left_one_0[9]/a_12_n288#" 36.5267
+cap "sreg_0[9]/GND!" "sreg_left_control_0/sreg_left_one_0[9]/a_12_n288#" 798.22
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" 7.10543e-15
+cap "sreg_0[8]/i0" "sreg_0[9]/GND!" 1.06581e-13
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_12_n288#" "sreg_0[9]/GND!" 93.186
+cap "sreg_0[9]/a_7_n91#" "sreg_0[9]/GND!" 50.408
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" "sreg_left_control_0/sreg_left_one_0[9]/m2_n76_n293#" -8.172
+cap "sreg_0[8]/Vdd!" "sreg_left_control_0/sreg_left_one_0[9]/a_5_n281#" -19.206
+cap "sreg_0[8]/Vdd!" "sreg_0[9]/a_0_n39#" -2.84217e-14
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[9]/m2_n76_n293#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" "sreg_0[9]/GND!" -20.772
+cap "sreg_0[8]/Vdd!" "sreg_0[9]/GND!" 0.454
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_5_n281#" "sreg_left_control_0/sreg_left_one_0[9]/m2_n76_n293#" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n2_n226#" "sreg_0[9]/GND!" -39.978
+cap "sreg_0[8]/Vdd!" "sreg_0[9]/a_7_n91#" 14.526
+cap "sreg_0[9]/a_7_n29#" "sreg_0[8]/Vdd!" -8.52651e-14
+cap "sreg_0[9]/a_0_n91#" "sreg_0[9]/GND!" -8.52651e-14
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_5_n281#" "sreg_0[9]/GND!" -20.772
+cap "sreg_0[9]/a_0_n39#" "sreg_0[9]/GND!" 1.7053e-13
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_12_n288#" "sreg_left_control_0/sreg_left_one_0[9]/m2_n76_n293#" 10.215
+cap "sreg_left_control_0/sreg_left_one_0[9]/m2_n76_n293#" "sreg_0[9]/GND!" -60.864
+cap "sreg_0[8]/Vdd!" "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" -28.809
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n2_n226#" "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" 3.55271e-15
+cap "sreg_0[9]/GND!" "sreg_left_control_0/_c1" 298.4
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" "sreg_0[9]/i0" -8.172
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" "sreg_0[9]/Vdd!" -28.809
+cap "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" "sreg_0[9]/GND!" -20.772
+cap "sreg_0[9]/Vdd!" "sreg_0[9]/i0" -1.7053e-13
+cap "sreg_0[9]/a_7_n29#" "sreg_0[9]/Vdd!" 67.056
+cap "sreg_0[9]/w_n9_9#" "sreg_0[9]/Vdd!" 6.102
+cap "sreg_0[9]/GND!" "sreg_0[9]/Vdd!" -1.7053e-13
+merge "sreg_0[8]/c1" "sreg_left_control_0/sreg_left_one_0[8]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[6]/w_n6_47#" "sreg_0[6]/w_n9_n17#" -45.606 0 0 0 0 0 0 0 0 -228 -94 0 0 0 0 0 0 -24 -8 0 0
+merge "sreg_0[6]/w_n9_n17#" "sreg_01_right_0[7]/w_n6_n15#"
+merge "sreg_01_right_0[7]/w_n6_n15#" "sreg_0[7]/w_n9_n79#"
+merge "sreg_0[7]/w_n9_n79#" "sreg_0[6]/Vdd!"
+merge "sreg_0[6]/Vdd!" "sreg_01_right_0[7]/w_n6_47#"
+merge "sreg_01_right_0[7]/w_n6_47#" "sreg_0[7]/w_n9_n17#"
+merge "sreg_0[7]/w_n9_n17#" "sreg_0[7]/Vdd!"
+merge "sreg_01_right_0[8]/w_0_n33#" "sreg_0[7]/w_n9_9#" 1373.35 0 0 0 0 176 -92 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "sreg_0[7]/w_n9_9#" "sreg_0[7]/w_n9_n53#"
+merge "sreg_0[7]/w_n9_n53#" "sreg_0[8]/GND!"
+merge "sreg_0[8]/GND!" "sreg_01_right_0[7]/w_0_n33#"
+merge "sreg_01_right_0[7]/w_0_n33#" "sreg_0[6]/w_n9_9#"
+merge "sreg_0[6]/w_n9_9#" "sreg_01_right_0[6]/w_0_n33#"
+merge "sreg_01_right_0[6]/w_0_n33#" "sreg_0[6]/w_n9_n53#"
+merge "sreg_0[6]/w_n9_n53#" "sreg_0[5]/w_n9_9#"
+merge "sreg_0[5]/w_n9_9#" "sreg_0[6]/a_7_n62#"
+merge "sreg_0[6]/a_7_n62#" "sreg_0[6]/GND!"
+merge "sreg_0[6]/GND!" "sreg_0[7]/a_7_n62#"
+merge "sreg_0[7]/a_7_n62#" "sreg_0[7]/GND!"
+merge "sreg_0[7]/GND!" "sreg_0[8]/w_n9_n53#"
+merge "sreg_0[8]/w_n9_n53#" "sreg_0[8]/a_7_n62#"
+merge "sreg_01_right_0[2]/m2_0_n25#" "sreg_0[2]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[6]/i0" "sreg_left_control_0/sreg_left_one_0[6]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_01_right_0[0]/w_0_n33#" "sreg_0[0]/w_n9_n53#" -51.42 0 0 0 0 0 -108 0 0 0 0 0 0 0 0 0 -14 0 0 0 0
+merge "sreg_0[0]/w_n9_n53#" "sreg_0[0]/w_n9_n97#"
+merge "sreg_0[0]/w_n9_n97#" "sreg_0[0]/a_7_n62#"
+merge "sreg_0[0]/a_7_n62#" "sreg_0[0]/GND!"
+merge "sreg_01_right_0[1]/w_n6_47#" "sreg_0[1]/w_n9_n17#" -22.374 0 0 0 0 0 0 0 0 -264 -128 0 0 0 0 0 0 0 -16 0 0
+merge "sreg_0[1]/w_n9_n17#" "sreg_01_right_0[2]/w_n6_n15#"
+merge "sreg_01_right_0[2]/w_n6_n15#" "sreg_0[2]/w_n9_n79#"
+merge "sreg_0[2]/w_n9_n79#" "sreg_0[1]/Vdd!"
+merge "sreg_0[5]/_c1" "sreg_left_control_0/sreg_left_one_0[5]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[1]/w_0_n33#" "sreg_0[1]/w_n9_n53#" -1049.75 0 0 0 0 -128 -156 0 0 0 0 0 0 0 0 0 -14 0 0 0 0
+merge "sreg_0[1]/w_n9_n53#" "sreg_01_right_0[0]/w_n6_73#"
+merge "sreg_01_right_0[0]/w_n6_73#" "sreg_0[0]/w_n9_9#"
+merge "sreg_0[0]/w_n9_9#" "sreg_0[1]/a_7_n62#"
+merge "sreg_0[1]/a_7_n62#" "sreg_0[1]/GND!"
+merge "sreg_01_right_0[4]/w_0_n33#" "sreg_0[3]/w_n9_9#" 454.632 0 0 0 0 60 -105 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "sreg_0[3]/w_n9_9#" "sreg_0[3]/w_n9_n53#"
+merge "sreg_0[3]/w_n9_n53#" "sreg_0[4]/GND!"
+merge "sreg_0[4]/GND!" "sreg_01_right_0[3]/w_0_n33#"
+merge "sreg_01_right_0[3]/w_0_n33#" "sreg_0[2]/w_n9_9#"
+merge "sreg_0[2]/w_n9_9#" "sreg_01_right_0[2]/w_0_n33#"
+merge "sreg_01_right_0[2]/w_0_n33#" "sreg_0[2]/w_n9_n53#"
+merge "sreg_0[2]/w_n9_n53#" "sreg_0[1]/w_n9_9#"
+merge "sreg_0[1]/w_n9_9#" "sreg_0[2]/a_7_n62#"
+merge "sreg_0[2]/a_7_n62#" "sreg_0[2]/GND!"
+merge "sreg_0[2]/GND!" "sreg_0[3]/a_7_n62#"
+merge "sreg_0[3]/a_7_n62#" "sreg_0[3]/GND!"
+merge "sreg_0[3]/GND!" "sreg_0[4]/w_n9_n53#"
+merge "sreg_0[4]/w_n9_n53#" "sreg_0[4]/a_7_n62#"
+merge "sreg_0[5]/c1" "sreg_left_control_0/sreg_left_one_0[5]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[4]/w_n6_n15#" "sreg_0[4]/w_n9_n79#" -56.062 0 0 0 0 0 0 0 0 -168 -74 0 0 0 0 0 0 -32 -8 0 0
+merge "sreg_0[4]/w_n9_n79#" "sreg_01_right_0[4]/w_n6_47#"
+merge "sreg_01_right_0[4]/w_n6_47#" "sreg_0[4]/w_n9_n17#"
+merge "sreg_0[4]/w_n9_n17#" "sreg_01_right_0[2]/w_n6_47#"
+merge "sreg_01_right_0[2]/w_n6_47#" "sreg_0[2]/w_n9_n17#"
+merge "sreg_0[2]/w_n9_n17#" "sreg_01_right_0[3]/w_n6_n15#"
+merge "sreg_01_right_0[3]/w_n6_n15#" "sreg_0[3]/w_n9_n79#"
+merge "sreg_0[3]/w_n9_n79#" "sreg_0[2]/Vdd!"
+merge "sreg_0[2]/Vdd!" "sreg_01_right_0[3]/w_n6_47#"
+merge "sreg_01_right_0[3]/w_n6_47#" "sreg_0[3]/w_n9_n17#"
+merge "sreg_0[3]/w_n9_n17#" "sreg_0[3]/Vdd!"
+merge "sreg_0[3]/Vdd!" "sreg_01_right_0[5]/w_n6_n15#"
+merge "sreg_01_right_0[5]/w_n6_n15#" "sreg_0[5]/w_n9_n79#"
+merge "sreg_0[5]/w_n9_n79#" "sreg_0[4]/Vdd!"
+merge "sreg_01_right_0[9]/w_0_n33#" "sreg_0[9]/w_n9_n53#" -954.714 0 0 0 0 -116 -146 0 0 0 0 0 0 0 0 0 -14 0 0 0 0
+merge "sreg_0[9]/w_n9_n53#" "sreg_01_right_0[8]/w_n6_73#"
+merge "sreg_01_right_0[8]/w_n6_73#" "sreg_0[8]/w_n9_9#"
+merge "sreg_0[8]/w_n9_9#" "sreg_0[9]/a_7_n62#"
+merge "sreg_0[9]/a_7_n62#" "sreg_0[9]/GND!"
+merge "sreg_0[8]/c0" "sreg_left_control_0/sreg_left_one_0[8]/a_n9_n219#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[6]/_c0" "sreg_left_control_0/sreg_left_one_0[6]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[4]/_c0" "sreg_left_control_0/sreg_left_one_0[4]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[5]/w_0_n33#" "sreg_0[5]/w_n9_n53#" -1049.75 0 0 0 0 -128 -156 0 0 0 0 0 0 0 0 0 -14 0 0 0 0
+merge "sreg_0[5]/w_n9_n53#" "sreg_01_right_0[4]/w_n6_73#"
+merge "sreg_01_right_0[4]/w_n6_73#" "sreg_0[4]/w_n9_9#"
+merge "sreg_0[4]/w_n9_9#" "sreg_0[5]/a_7_n62#"
+merge "sreg_0[5]/a_7_n62#" "sreg_0[5]/GND!"
+merge "sreg_01_right_0[0]/m2_0_n25#" "sreg_0[0]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[7]/i0" "sreg_left_control_0/sreg_left_one_0[7]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_01_right_0[1]/m2_0_n25#" "sreg_0[1]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[2]/c0" "sreg_left_control_0/sreg_left_one_0[2]/a_n9_n219#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[6]/_c1" "sreg_left_control_0/sreg_left_one_0[6]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[3]/m2_0_n25#" "sreg_0[3]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_01_right_0[4]/m2_0_n25#" "sreg_0[4]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_01_right_0[5]/m2_0_n25#" "sreg_0[5]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_01_right_0[6]/m2_0_n25#" "sreg_0[6]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[5]/c0" "sreg_left_control_0/sreg_left_one_0[5]/a_n9_n219#" -65.036 0 0 0 0 0 0 0 0 0 0 -5 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[7]/m2_0_n25#" "sreg_0[7]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[6]/c1" "sreg_left_control_0/sreg_left_one_0[6]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[8]/m2_0_n25#" "sreg_0[8]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[8]/i0" "sreg_left_control_0/sreg_left_one_0[8]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_01_right_0[9]/m2_0_n25#" "sreg_0[9]/a_7_n91#" -36.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_01_right_0[9]/w_n6_n15#" "sreg_0[9]/w_n9_n79#" -14.238 0 0 0 0 0 0 0 0 -132 -50 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[9]/w_n9_n79#" "sreg_01_right_0[9]/w_n6_47#"
+merge "sreg_01_right_0[9]/w_n6_47#" "sreg_0[9]/w_n9_n17#"
+merge "sreg_0[9]/w_n9_n17#" "sreg_01_right_0[8]/w_n6_n15#"
+merge "sreg_01_right_0[8]/w_n6_n15#" "sreg_0[8]/w_n9_n79#"
+merge "sreg_0[8]/w_n9_n79#" "sreg_01_right_0[8]/w_n6_47#"
+merge "sreg_01_right_0[8]/w_n6_47#" "sreg_0[8]/w_n9_n17#"
+merge "sreg_0[8]/w_n9_n17#" "sreg_0[8]/Vdd!"
+merge "sreg_0[8]/Vdd!" "sreg_0[9]/Vdd!"
+merge "sreg_01_right_0[9]/w_n6_73#" "sreg_0[9]/w_n9_9#" -855.36 0 0 0 0 -108 -48 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[5]/w_n6_47#" "sreg_0[5]/w_n9_n17#" -22.374 0 0 0 0 0 0 0 0 -312 -128 0 0 0 0 0 0 0 -16 0 0
+merge "sreg_0[5]/w_n9_n17#" "sreg_01_right_0[6]/w_n6_n15#"
+merge "sreg_01_right_0[6]/w_n6_n15#" "sreg_0[6]/w_n9_n79#"
+merge "sreg_0[6]/w_n9_n79#" "sreg_0[5]/Vdd!"
+merge "sreg_0[9]/i0" "sreg_left_control_0/sreg_left_one_0[9]/m2_n76_n293#" 42.412 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_0[5]/_c0" "sreg_left_control_0/sreg_left_one_0[5]/a_n2_n226#" -19.206 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[7]/c1" "sreg_left_control_0/sreg_left_one_0[7]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[4]/_c1" "sreg_left_control_0/sreg_left_one_0[4]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[3]/i0" "sreg_left_control_0/sreg_left_one_0[3]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_0[9]/_c0" "sreg_left_control_0/sreg_left_one_0[9]/a_n2_n226#" -202.526 0 0 0 0 0 0 0 0 0 0 -20 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[7]/c0" "sreg_left_control_0/sreg_left_one_0[7]/a_n9_n219#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[3]/_c0" "sreg_left_control_0/sreg_left_one_0[3]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[1]/c0" "sreg_left_control_0/sreg_left_one_0[1]/a_n9_n219#" -248.356 0 0 0 0 0 0 0 0 0 0 -25 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[9]/c0" "sreg_left_control_0/sreg_left_one_0[9]/a_n9_n219#" 110.866 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[9]/c1" "sreg_left_control_0/sreg_left_one_0[9]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[2]/c1" "sreg_left_control_0/sreg_left_one_0[2]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[0]/i0" "sreg_left_control_0/sreg_left_one_0[0]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_0[9]/_c1" "sreg_left_control_0/sreg_left_one_0[9]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_01_right_0[1]/w_n6_n15#" "sreg_0[1]/w_n9_n79#" -93.246 0 0 0 0 0 0 0 0 -468 -192 0 0 0 0 0 0 -48 -24 0 0
+merge "sreg_0[1]/w_n9_n79#" "sreg_01_right_0[0]/w_n6_n15#"
+merge "sreg_01_right_0[0]/w_n6_n15#" "sreg_0[0]/w_n9_n79#"
+merge "sreg_0[0]/w_n9_n79#" "sreg_01_right_0[0]/w_n6_47#"
+merge "sreg_01_right_0[0]/w_n6_47#" "sreg_0[0]/w_n9_n17#"
+merge "sreg_0[0]/w_n9_n17#" "sreg_0[0]/Vdd!"
+merge "sreg_0[3]/_c1" "sreg_left_control_0/sreg_left_one_0[3]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[8]/_c0" "sreg_left_control_0/sreg_left_one_0[8]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[6]/c0" "sreg_left_control_0/sreg_left_one_0[6]/a_n9_n219#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[2]/_c0" "sreg_left_control_0/sreg_left_one_0[2]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[0]/c0" "sreg_left_control_0/sreg_left_one_0[0]/a_n9_n219#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[4]/i0" "sreg_left_control_0/sreg_left_one_0[4]/m2_n76_n293#" 2.55795e-13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "sreg_0[8]/_c1" "sreg_left_control_0/sreg_left_one_0[8]/a_12_n288#" -288.953 0 0 0 0 0 0 0 0 0 0 -20 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[2]/_c1" "sreg_left_control_0/sreg_left_one_0[2]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[3]/c0" "sreg_left_control_0/sreg_left_one_0[3]/a_n9_n219#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[7]/_c0" "sreg_left_control_0/sreg_left_one_0[7]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[1]/_c0" "sreg_left_control_0/sreg_left_one_0[1]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[3]/c1" "sreg_left_control_0/sreg_left_one_0[3]/a_5_n281#" -156.696 0 0 0 0 0 0 0 0 0 0 -15 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[0]/c1" "sreg_left_control_0/sreg_left_one_0[0]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[1]/i0" "sreg_left_control_0/sreg_left_one_0[1]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_0[7]/_c1" "sreg_left_control_0/sreg_left_one_0[7]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[1]/c1" "sreg_left_control_0/sreg_left_one_0[1]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[1]/_c1" "sreg_left_control_0/sreg_left_one_0[1]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[4]/c0" "sreg_left_control_0/sreg_left_one_0[4]/a_n9_n219#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[0]/_c0" "sreg_left_control_0/sreg_left_one_0[0]/a_n2_n226#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[5]/i0" "sreg_left_control_0/sreg_left_one_0[5]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_0[2]/i0" "sreg_left_control_0/sreg_left_one_0[2]/m2_n76_n293#" 26.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 0
+merge "sreg_0[4]/c1" "sreg_left_control_0/sreg_left_one_0[4]/a_5_n281#" 72.454 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+merge "sreg_0[0]/_c1" "sreg_left_control_0/sreg_left_one_0[0]/a_12_n288#" -13.973 0 0 0 0 0 0 0 0 0 0 10 -4 0 0 0 0 0 0 0 0
+cap "sreg_0[1:9]/GND!" "sreg_0[0:8]/Vdd!" 59.68
+cap "sreg_0[0:8]/w_n9_9#" "sreg_0[0:8]/Vdd!" 2.034
+cap "sreg_0[0:8]/w_n9_9#" "sreg_0[1:9]/GND!" -1.13687e-13
+merge "sreg_0[1:9]/Vdd!" "sreg_0[0:8]/Vdd!" -14.238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0
+merge "sreg_0[1:9]/GND!" "sreg_0[0:8]/GND!" -30.852 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "sreg_01_right_0[1:9]/w_0_n33#" "sreg_01_right_0[0:8]/w_n6_73#" -395.586 0 0 0 0 -48 -32 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "sreg_01_right_0[0:8]/w_n6_73#" "sreg_01_right_0[0:8]/w_0_n33#"
+merge "sreg_0[1:9]/w_n9_n97#" "sreg_0[0:8]/w_n9_9#" 0 0 0 0 0 0 -54 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,527 @@
+# AUTOMATICALLY GENERATED TEST
+
+source test_header.cmd
+setvector BYPASS 0000001
+c
+
+#####
+# PART 1: GENERATE NOISE
+h load
+c
+c
+setvector INPUT 1101101011
+c
+setvector INPUT 0001101000
+c
+setvector INPUT 1100001010
+c
+setvector INPUT 0000010010
+c
+setvector INPUT 1010101001
+c
+setvector INPUT 0111110001
+c
+setvector INPUT 1101010111
+c
+setvector INPUT 0001101101
+c
+setvector INPUT 0101101010
+c
+setvector INPUT 1110000001
+c
+setvector INPUT 0001101110
+c
+setvector INPUT 0110000000
+c
+setvector INPUT 0111010010
+c
+setvector INPUT 1101100100
+c
+setvector INPUT 0010101101
+c
+setvector INPUT 1101000111
+c
+setvector INPUT 1110000100
+c
+setvector INPUT 0111011111
+c
+setvector INPUT 0100010011
+c
+setvector INPUT 1001111001
+c
+setvector INPUT 0101001000
+c
+setvector INPUT 0111001011
+c
+setvector INPUT 0000100100
+c
+setvector INPUT 1111111111
+c
+setvector INPUT 0011111010
+c
+setvector INPUT 1010111010
+c
+setvector INPUT 0100010001
+c
+setvector INPUT 0000011010
+c
+setvector INPUT 0000000111
+c
+setvector INPUT 0111111111
+c
+setvector INPUT 0000101010
+c
+setvector INPUT 1000100111
+c
+setvector INPUT 0010001000
+c
+setvector INPUT 1001011111
+c
+setvector INPUT 0111000000
+c
+setvector INPUT 0101111100
+c
+setvector INPUT 1100010100
+c
+setvector INPUT 0101111110
+c
+setvector INPUT 0010100100
+c
+setvector INPUT 1100100000
+c
+setvector INPUT 0000111100
+c
+setvector INPUT 1111100111
+c
+setvector INPUT 1001101000
+c
+setvector INPUT 0100100111
+c
+setvector INPUT 1010110001
+c
+setvector INPUT 1001011011
+c
+setvector INPUT 0011100110
+c
+setvector INPUT 0110000010
+c
+setvector INPUT 1000010001
+c
+setvector INPUT 1011110010
+c
+setvector INPUT 1101000011
+c
+setvector INPUT 1010011110
+c
+setvector INPUT 0011111010
+c
+setvector INPUT 1101111000
+c
+setvector INPUT 1101101111
+c
+setvector INPUT 1110001010
+c
+setvector INPUT 0111010101
+c
+setvector INPUT 1000001001
+c
+setvector INPUT 0100001101
+c
+setvector INPUT 0110100000
+c
+setvector INPUT 0000010000
+c
+setvector INPUT 0000001111
+c
+setvector INPUT 0100000010
+c
+setvector INPUT 0111011110
+c
+setvector INPUT 1011111000
+c
+setvector INPUT 1000001101
+c
+setvector INPUT 1110000011
+c
+setvector INPUT 0000100110
+c
+setvector INPUT 1000100110
+c
+setvector INPUT 1000101111
+c
+setvector INPUT 0111011010
+c
+setvector INPUT 1111100100
+c
+setvector INPUT 1000111000
+c
+setvector INPUT 1111000010
+c
+setvector INPUT 0010001111
+c
+setvector INPUT 0011110001
+c
+setvector INPUT 0110010001
+c
+setvector INPUT 1000101111
+c
+setvector INPUT 1011100100
+c
+setvector INPUT 1111111110
+c
+setvector INPUT 0010111100
+c
+setvector INPUT 0001101110
+c
+setvector INPUT 0101001110
+c
+setvector INPUT 0100001110
+c
+setvector INPUT 0001111100
+c
+setvector INPUT 1100111001
+c
+setvector INPUT 0111110011
+c
+setvector INPUT 1001000110
+c
+setvector INPUT 0001110101
+c
+setvector INPUT 1011100000
+c
+setvector INPUT 0111010110
+c
+setvector INPUT 1000001011
+c
+setvector INPUT 1001001110
+c
+setvector INPUT 0100010011
+c
+setvector INPUT 1111011001
+c
+setvector INPUT 1010011101
+c
+setvector INPUT 0110100110
+c
+setvector INPUT 0010011101
+c
+setvector INPUT 0010010010
+c
+setvector INPUT 1100111101
+c
+setvector INPUT 0010010001
+c
+setvector INPUT 0101110101
+c
+setvector INPUT 1101110010
+c
+setvector INPUT 0011010101
+c
+setvector INPUT 1011000111
+c
+setvector INPUT 0000011110
+c
+setvector INPUT 1001110011
+c
+setvector INPUT 0001110000
+c
+setvector INPUT 0111110111
+c
+setvector INPUT 1100000010
+c
+setvector INPUT 1100011100
+c
+setvector INPUT 1100001011
+c
+setvector INPUT 1000001111
+c
+setvector INPUT 1000011100
+c
+setvector INPUT 0000001001
+c
+setvector INPUT 0010110010
+c
+setvector INPUT 0001100110
+c
+setvector INPUT 0000001111
+c
+setvector INPUT 1101111000
+c
+setvector INPUT 1111001000
+c
+setvector INPUT 0011111000
+c
+setvector INPUT 0011100100
+c
+setvector INPUT 1000101000
+c
+setvector INPUT 1111000101
+c
+setvector INPUT 0110001000
+c
+setvector INPUT 1100100000
+c
+setvector INPUT 1110101001
+h iter
+l load
+c
+setvector INPUT 0110111001
+c
+#####
+# PART 2: ITERATE
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c

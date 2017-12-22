@@ -1,0 +1,36 @@
+
+INORDER=
+   RESET
+   load
+   iter
+   InSt0*
+   InSt1*;
+OUTORDER=
+   OutSt1*
+   OutSt0*
+   ready
+   sreg_en
+   sreg_latch
+   add_latch
+   in_latch
+   loop_latch;
+OutSt1*=
+     (!RESET& load);
+OutSt0*=
+     (!RESET& iter);
+ready=
+     (!InSt0*&!InSt1*);
+sreg_en=
+     ( InSt0*)|
+     (!InSt0*& InSt1*);
+sreg_latch=
+     (!InSt0*& InSt1*);
+add_latch=
+     ( InSt0*);
+in_latch=
+     ( InSt1*);
+loop_latch=
+     ( InSt0*&!InSt1*);
+
+
+

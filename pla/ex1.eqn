@@ -1,0 +1,24 @@
+
+INORDER=
+   x
+   InSt0*
+   InSt1*
+   InSt2*;
+OUTORDER=
+   OutSt2*
+   OutSt1*
+   OutSt0*
+   z;
+OutSt2*=
+     ( InSt0*&!InSt1*&!InSt2*)|
+     (!x&!InSt0*&!InSt1*);
+OutSt1*=
+     ( x& InSt0*&!InSt1*&!InSt2*)|
+     ( x&!InSt0*&!InSt1*& InSt2*);
+OutSt0*=
+     (!x&!InSt0*& InSt1*);
+z=
+     (!InSt0*& InSt1*& InSt2*);
+
+
+

@@ -1,0 +1,16 @@
+magic
+tech scmos
+timestamp 1512534937
+use sreg_left_control  sreg_left_control_0
+timestamp 1512534937
+transform 1 0 -99 0 1 1181
+box 4 -1178 99 65
+use sreg_10b  sreg_10b_0
+timestamp 1512379799
+transform 1 0 0 0 1 3
+box 0 -3 56 1245
+use sreg_right  sreg_right_0
+timestamp 1512379879
+transform 1 0 67 0 1 2
+box -11 2 -2 1155
+<< end >>

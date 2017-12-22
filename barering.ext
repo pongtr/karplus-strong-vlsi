@@ -1,0 +1,9 @@
+timestamp 1006127261
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+node "GND!" 19 18810.3 2 51 pod 0 0 12360 698 0 0 0 0 0 0 0 0 0 0 646 106 646 106 35535 848
+node "Vdd!" 22 10167.1 2 97 nod 12360 698 0 0 0 0 0 0 0 0 0 0 0 0 646 106 646 106 24720 778
+cap "Vdd!" "GND!" 4482.05

@@ -1,0 +1,9 @@
+magic
+tech scmos
+timestamp 1512379879
+use sreg_right_one  sreg_right_one_0
+array 0 0 9 0 9 124
+timestamp 1512379879
+transform 1 0 0 0 1 0
+box -11 2 -2 39
+<< end >>

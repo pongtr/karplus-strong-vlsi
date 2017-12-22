@@ -1,0 +1,563 @@
+| units: 30 tech: scmos format: MIT
+p sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 6 43 115
+n sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 3 43 100
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 3 43 90
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 6 43 71
+p sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n91# Vdd! 2 6 43 53
+n sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n91# GND! 2 3 43 38
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/i0 2 3 43 28
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/i0 2 6 43 9
+p in0 Vdd! sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 6 14 115
+n in0 GND! sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 3 14 100
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 3 14 90
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 6 14 71
+p sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n91# Vdd! 2 6 14 53
+n sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n91# GND! 2 3 14 38
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/i0 2 3 14 28
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/i0 2 6 14 9
+p sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 6 43 239
+n sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 3 43 224
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 3 43 214
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 6 43 195
+p sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n91# Vdd! 2 6 43 177
+n sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n91# GND! 2 3 43 162
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/i0 2 3 43 152
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/i0 2 6 43 133
+p in1 Vdd! sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 6 14 239
+n in1 GND! sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 3 14 224
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 3 14 214
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 6 14 195
+p sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n91# Vdd! 2 6 14 177
+n sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n91# GND! 2 3 14 162
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/i0 2 3 14 152
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/i0 2 6 14 133
+p sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 6 43 363
+n sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 3 43 348
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 3 43 338
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 6 43 319
+p sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n91# Vdd! 2 6 43 301
+n sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n91# GND! 2 3 43 286
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/i0 2 3 43 276
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/i0 2 6 43 257
+p in2 Vdd! sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 6 14 363
+n in2 GND! sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 3 14 348
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 3 14 338
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 6 14 319
+p sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n91# Vdd! 2 6 14 301
+n sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n91# GND! 2 3 14 286
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/i0 2 3 14 276
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/i0 2 6 14 257
+p sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 6 43 487
+n sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 3 43 472
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 3 43 462
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 6 43 443
+p sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n91# Vdd! 2 6 43 425
+n sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n91# GND! 2 3 43 410
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/i0 2 3 43 400
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/i0 2 6 43 381
+p in3 Vdd! sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 6 14 487
+n in3 GND! sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 3 14 472
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 3 14 462
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 6 14 443
+p sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n91# Vdd! 2 6 14 425
+n sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n91# GND! 2 3 14 410
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/i0 2 3 14 400
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/i0 2 6 14 381
+p sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 6 43 611
+n sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 3 43 596
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 3 43 586
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 6 43 567
+p sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n91# Vdd! 2 6 43 549
+n sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n91# GND! 2 3 43 534
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/i0 2 3 43 524
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/i0 2 6 43 505
+p in4 Vdd! sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 6 14 611
+n in4 GND! sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 3 14 596
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 3 14 586
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 6 14 567
+p sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n91# Vdd! 2 6 14 549
+n sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n91# GND! 2 3 14 534
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/i0 2 3 14 524
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/i0 2 6 14 505
+p sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 6 43 735
+n sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 3 43 720
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 3 43 710
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 6 43 691
+p sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n91# Vdd! 2 6 43 673
+n sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n91# GND! 2 3 43 658
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/i0 2 3 43 648
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/i0 2 6 43 629
+p in5 Vdd! sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 6 14 735
+n in5 GND! sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 3 14 720
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 3 14 710
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 6 14 691
+p sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n91# Vdd! 2 6 14 673
+n sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n91# GND! 2 3 14 658
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/i0 2 3 14 648
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/i0 2 6 14 629
+p sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 6 43 859
+n sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 3 43 844
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 3 43 834
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 6 43 815
+p sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n91# Vdd! 2 6 43 797
+n sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n91# GND! 2 3 43 782
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/i0 2 3 43 772
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/i0 2 6 43 753
+p in6 Vdd! sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 6 14 859
+n in6 GND! sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 3 14 844
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 3 14 834
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 6 14 815
+p sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n91# Vdd! 2 6 14 797
+n sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n91# GND! 2 3 14 782
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/i0 2 3 14 772
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/i0 2 6 14 753
+p sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 6 43 983
+n sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 3 43 968
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 3 43 958
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 6 43 939
+p sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n91# Vdd! 2 6 43 921
+n sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n91# GND! 2 3 43 906
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/i0 2 3 43 896
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/i0 2 6 43 877
+p in7 Vdd! sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 6 14 983
+n in7 GND! sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 3 14 968
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 3 14 958
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 6 14 939
+p sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n91# Vdd! 2 6 14 921
+n sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n91# GND! 2 3 14 906
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/i0 2 3 14 896
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/i0 2 6 14 877
+p sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 6 43 1107
+n sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 3 43 1092
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 3 43 1082
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 6 43 1063
+p sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n91# Vdd! 2 6 43 1045
+n sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n91# GND! 2 3 43 1030
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/i0 2 3 43 1020
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/i0 2 6 43 1001
+p in8 Vdd! sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 6 14 1107
+n in8 GND! sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 3 14 1092
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 3 14 1082
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 6 14 1063
+p sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n91# Vdd! 2 6 14 1045
+n sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n91# GND! 2 3 14 1030
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/i0 2 3 14 1020
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/i0 2 6 14 1001
+p sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/i0 Vdd! sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 6 43 1231
+n sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/i0 GND! sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 3 43 1216
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 3 43 1206
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 6 43 1187
+p sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n91# Vdd! 2 6 43 1169
+n sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n91# GND! 2 3 43 1154
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/i0 2 3 43 1144
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n91# sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/i0 2 6 43 1125
+p in9 Vdd! sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 6 14 1231
+n in9 GND! sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 3 14 1216
+n sreg_left_control_0/c0 sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 3 14 1206
+p sreg_left_control_0/_c0 sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 6 14 1187
+p sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n91# Vdd! 2 6 14 1169
+n sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n91# GND! 2 3 14 1154
+n sreg_left_control_0/c1 sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/i0 2 3 14 1144
+p sreg_left_control_0/_c1 sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n91# sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/i0 2 6 14 1125
+p sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 6 99 115
+n sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 3 99 100
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 3 99 90
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_7_n29# 2 6 99 71
+p sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n91# Vdd! 2 6 99 53
+n sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n91# GND! 2 3 99 38
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n91# out0 2 3 99 28
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n91# out0 2 6 99 9
+p sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 6 70 115
+n sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 3 70 100
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 3 70 90
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_7_n29# 2 6 70 71
+p sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n91# Vdd! 2 6 70 53
+n sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n91# GND! 2 3 70 38
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/i0 2 3 70 28
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/i0 2 6 70 9
+p sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 6 99 239
+n sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 3 99 224
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 3 99 214
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_7_n29# 2 6 99 195
+p sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n91# Vdd! 2 6 99 177
+n sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n91# GND! 2 3 99 162
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n91# out1 2 3 99 152
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n91# out1 2 6 99 133
+p sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 6 70 239
+n sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 3 70 224
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 3 70 214
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_7_n29# 2 6 70 195
+p sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n91# Vdd! 2 6 70 177
+n sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n91# GND! 2 3 70 162
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/i0 2 3 70 152
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/i0 2 6 70 133
+p sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 6 99 363
+n sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 3 99 348
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 3 99 338
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_7_n29# 2 6 99 319
+p sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n91# Vdd! 2 6 99 301
+n sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n91# GND! 2 3 99 286
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n91# out2 2 3 99 276
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n91# out2 2 6 99 257
+p sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 6 70 363
+n sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 3 70 348
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 3 70 338
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_7_n29# 2 6 70 319
+p sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n91# Vdd! 2 6 70 301
+n sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n91# GND! 2 3 70 286
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/i0 2 3 70 276
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/i0 2 6 70 257
+p sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 6 99 487
+n sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 3 99 472
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 3 99 462
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_7_n29# 2 6 99 443
+p sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n91# Vdd! 2 6 99 425
+n sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n91# GND! 2 3 99 410
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n91# out3 2 3 99 400
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n91# out3 2 6 99 381
+p sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 6 70 487
+n sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 3 70 472
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 3 70 462
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_7_n29# 2 6 70 443
+p sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n91# Vdd! 2 6 70 425
+n sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n91# GND! 2 3 70 410
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/i0 2 3 70 400
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/i0 2 6 70 381
+p sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 6 99 611
+n sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 3 99 596
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 3 99 586
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_7_n29# 2 6 99 567
+p sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n91# Vdd! 2 6 99 549
+n sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n91# GND! 2 3 99 534
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n91# out4 2 3 99 524
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n91# out4 2 6 99 505
+p sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 6 70 611
+n sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 3 70 596
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 3 70 586
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_7_n29# 2 6 70 567
+p sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n91# Vdd! 2 6 70 549
+n sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n91# GND! 2 3 70 534
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/i0 2 3 70 524
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/i0 2 6 70 505
+p sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 6 99 735
+n sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 3 99 720
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 3 99 710
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_7_n29# 2 6 99 691
+p sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n91# Vdd! 2 6 99 673
+n sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n91# GND! 2 3 99 658
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n91# out5 2 3 99 648
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n91# out5 2 6 99 629
+p sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 6 70 735
+n sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 3 70 720
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 3 70 710
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_7_n29# 2 6 70 691
+p sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n91# Vdd! 2 6 70 673
+n sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n91# GND! 2 3 70 658
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/i0 2 3 70 648
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/i0 2 6 70 629
+p sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 6 99 859
+n sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 3 99 844
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 3 99 834
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_7_n29# 2 6 99 815
+p sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n91# Vdd! 2 6 99 797
+n sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n91# GND! 2 3 99 782
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n91# out6 2 3 99 772
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n91# out6 2 6 99 753
+p sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 6 70 859
+n sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 3 70 844
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 3 70 834
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_7_n29# 2 6 70 815
+p sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n91# Vdd! 2 6 70 797
+n sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n91# GND! 2 3 70 782
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/i0 2 3 70 772
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/i0 2 6 70 753
+p sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 6 99 983
+n sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 3 99 968
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 3 99 958
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_7_n29# 2 6 99 939
+p sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n91# Vdd! 2 6 99 921
+n sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n91# GND! 2 3 99 906
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n91# out7 2 3 99 896
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n91# out7 2 6 99 877
+p sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 6 70 983
+n sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 3 70 968
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 3 70 958
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_7_n29# 2 6 70 939
+p sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n91# Vdd! 2 6 70 921
+n sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n91# GND! 2 3 70 906
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/i0 2 3 70 896
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/i0 2 6 70 877
+p sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 6 99 1107
+n sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 3 99 1092
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 3 99 1082
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_7_n29# 2 6 99 1063
+p sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n91# Vdd! 2 6 99 1045
+n sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n91# GND! 2 3 99 1030
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n91# out8 2 3 99 1020
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n91# out8 2 6 99 1001
+p sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 6 70 1107
+n sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 3 70 1092
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 3 70 1082
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_7_n29# 2 6 70 1063
+p sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n91# Vdd! 2 6 70 1045
+n sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n91# GND! 2 3 70 1030
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/i0 2 3 70 1020
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/i0 2 6 70 1001
+p sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 6 99 1231
+n sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/i0 GND! sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 3 99 1216
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 3 99 1206
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_7_n29# 2 6 99 1187
+p sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n91# Vdd! 2 6 99 1169
+n sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n91# GND! 2 3 99 1154
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n91# out9 2 3 99 1144
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n91# out9 2 6 99 1125
+p sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/i0 Vdd! sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 6 70 1231
+n sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/i0 GND! sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 3 70 1216
+n sreg_left_control_0/c0 sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 3 70 1206
+p sreg_left_control_0/_c0 sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_7_n29# 2 6 70 1187
+p sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n91# Vdd! 2 6 70 1169
+n sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n39# sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n91# GND! 2 3 70 1154
+n sreg_left_control_0/c1 sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/i0 2 3 70 1144
+p sreg_left_control_0/_c1 sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n91# sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/i0 2 6 70 1125
+p en Vdd! sreg_left_control_0/_c0 2 6 -74 1226
+p bp sreg_left_control_0/_c0 sreg_left_control_0/sreg_control_0/a_15_0# 2 6 -66 1226
+p phi0 sreg_left_control_0/sreg_control_0/a_15_0# Vdd! 2 6 -58 1226
+p sreg_left_control_0/_c0 Vdd! sreg_left_control_0/c0 2 6 -42 1226
+n en GND! sreg_left_control_0/sreg_control_0/a_7_n15# 2 3 -74 1211
+n bp sreg_left_control_0/sreg_control_0/a_7_n15# sreg_left_control_0/_c0 2 3 -66 1211
+n en GND! sreg_left_control_0/sreg_control_0/a_7_n30# 2 3 -74 1196
+n phi0 sreg_left_control_0/_c0 sreg_left_control_0/sreg_control_0/a_7_n15# 2 3 -58 1211
+n sreg_left_control_0/_c0 GND! sreg_left_control_0/c0 2 3 -42 1211
+n bp sreg_left_control_0/sreg_control_0/a_7_n30# sreg_left_control_0/_c1 2 3 -66 1196
+n phi1 sreg_left_control_0/_c1 sreg_left_control_0/sreg_control_0/a_7_n30# 2 3 -58 1196
+n sreg_left_control_0/_c1 GND! sreg_left_control_0/c1 2 3 -42 1196
+p en Vdd! sreg_left_control_0/_c1 2 6 -74 1178
+p bp sreg_left_control_0/_c1 sreg_left_control_0/sreg_control_0/a_15_n48# 2 6 -66 1178
+p phi1 sreg_left_control_0/sreg_control_0/a_15_n48# Vdd! 2 6 -58 1178
+p sreg_left_control_0/_c1 Vdd! sreg_left_control_0/c1 2 6 -42 1178
+C GND! sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/i0 2.86
+C sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/i0 GND! 2.86
+C sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/i0 GND! 2.86
+C sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/i0 GND! 2.86
+C sreg_left_control_0/c1 sreg_left_control_0/_c0 19.63
+C sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/i0 GND! 2.86
+C GND! sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/i0 2.86
+C sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/i0 GND! 2.86
+C sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/i0 GND! 2.86
+C GND! sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/i0 2.86
+C GND! in8 2.34
+C sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/i0 GND! 2.86
+C sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/i0 GND! 2.86
+C GND! sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/i0 2.86
+C GND! sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/i0 2.86
+C GND! sreg_left_control_0/c0 3.13
+C Vdd! sreg_left_control_0/c0 49.73
+C GND! sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/i0 2.86
+C GND! in2 2.34
+C sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/i0 GND! 2.86
+C GND! sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/i0 2.86
+C GND! sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/i0 2.86
+C sreg_left_control_0/c0 sreg_left_control_0/_c0 26.24
+C in4 GND! 2.34
+C GND! sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/i0 2.86
+C sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/i0 GND! 2.86
+C sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/i0 GND! 2.86
+C sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/i0 GND! 2.86
+C sreg_left_control_0/_c1 GND! 65.21
+C sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/i0 GND! 2.86
+C GND! Vdd! 115.08
+C GND! sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/i0 2.86
+C GND! sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/i0 2.86
+C sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/i0 GND! 2.86
+C in6 GND! 2.34
+C sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/i0 GND! 2.86
+C GND! in9 2.31
+C GND! sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/i0 2.86
+C GND! sreg_left_control_0/_c0 53.22
+C GND! in5 2.34
+C in1 GND! 2.34
+C GND! sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/i0 2.86
+C in7 GND! 2.34
+C sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/i0 GND! 2.86
+C GND! in3 2.34
+C sreg_left_control_0/_c1 sreg_left_control_0/c1 25.58
+C in0 GND! 2.34
+C GND! sreg_left_control_0/c1 3.20
+C Vdd! sreg_left_control_0/c1 51.66
+C sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/i0 GND! 2.86
+R phi1 39
+R sreg_left_control_0/sreg_control_0/a_7_n30# 19
+R sreg_left_control_0/sreg_control_0/a_7_n15# 19
+R phi0 39
+R bp 80
+R en 85
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/a_7_n29# 33
+R Vdd! 1340
+R sreg_10b_0[1]/sreg_pair_0[9]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_0_n39# 48
+C sreg_left_control_0/c0 GND 45.71
+R sreg_left_control_0/c0 2132
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[8]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[7]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[6]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[5]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n91# 33
+C sreg_left_control_0/_c0 GND 42.11
+R sreg_left_control_0/_c0 2243
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[4]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_0/i0 42
+C sreg_left_control_0/_c1 GND 36.50
+R sreg_left_control_0/_c1 2040
+C sreg_left_control_0/c1 GND 39.75
+R sreg_left_control_0/c1 1964
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[3]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[2]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[1]/sreg_1/i0 42
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_0/i0 42
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n91# 33
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_0_n39# 48
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/a_7_n29# 33
+R sreg_10b_0[1]/sreg_pair_0[0]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[9]/sreg_0/a_7_n29# 33
+R in9 35
+R sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[9]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[8]/sreg_0/a_7_n29# 33
+R in8 35
+R sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[8]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[7]/sreg_0/a_7_n29# 33
+R in7 35
+R sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[7]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[6]/sreg_0/a_7_n29# 33
+R in6 35
+R sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[6]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[5]/sreg_0/a_7_n29# 33
+R in5 35
+R sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[5]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[4]/sreg_0/a_7_n29# 33
+R in4 35
+R sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[4]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[3]/sreg_0/a_7_n29# 33
+R in3 35
+R sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[3]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[2]/sreg_0/a_7_n29# 33
+R in2 35
+R sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[2]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[1]/sreg_0/a_7_n29# 33
+R in1 35
+R sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[1]/sreg_1/i0 42
+R sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[0]/sreg_0/a_7_n29# 33
+R in0 35
+R sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n91# 33
+R sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_0_n39# 48
+R sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/a_7_n29# 33
+R sreg_10b_0[0]/sreg_pair_0[0]/sreg_1/i0 42
+R GND! 92305

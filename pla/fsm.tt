@@ -1,0 +1,14 @@
+.i 5
+.o 8
+.ilb  RESET load iter InSt0* InSt1*
+.ob  OutSt1* OutSt0* ready sreg_en sreg_latch add_latch in_latch loop_latch
+.p 8
+---00  0 0 1 0 0 0 0 0 
+---01  0 0 0 1 1 0 0 0 
+----1  0 0 0 0 0 0 1 0 
+---10  0 0 0 0 0 0 0 1 
+---1-  0 0 0 1 0 0 0 0 
+---1-  0 0 0 0 0 1 0 0 
+0-1--  0 1 0 0 0 0 0 0 
+01---  1 0 0 0 0 0 0 0 
+.e
